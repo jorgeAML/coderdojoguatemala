@@ -4,8 +4,9 @@
     object-fit: cover;
     transform: skewY(5deg);
     transform-origin: top right;
-    border-bottom: 2px solid #2b2219;
+    border-bottom: 3px dashed 	#dee2e1;
     order: 1;
+    box-shadow: 1px 15px 17px -12px #2b2219;
 }
 .skewed {
     position: relative;
@@ -33,9 +34,18 @@
     display: flex;
     margin: 0;
 }
-.row {
+.container_titles_two {
+    margin: 0;
+}
+.row-column {
     max-width: 1280;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.row {
+    max-width: 1280px;
+    display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -56,12 +66,37 @@
     order: 2;
     font-family: 'Work Sans', sans-serif;
 }
-.link {
-    flex: content;
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover-raise);
+	transform: translateY(-0.25em);
+    border:3px solid var(--hover-raise);
+	color: var(--hover-raise);
+}
+.raise {
     align-self: center;
     order: 3;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--font);
+    transition: 0.25s;
+    border: 3px solid;
+    padding: 7px;
+    border-radius: 5px;
+}
+.raise {
+    --hover-raise: 		#00dcff;
+    --font: #f9f8f9;
+}
+.container_titles_two .paragraph_row {
     color: #f9f8f9;
     font-family: 'Work Sans', sans-serif;
+}
+.color-obj_1 {
+    color: 	#e44f28;
+}
+.color_obj_2 {
+    color: 	#f5b138;
 }
 /*media query for desktops*/
 @media only screen and (min-width: 1030px) {
@@ -75,16 +110,33 @@
         position: absolute;
         margin-left: 5%;
     }
+    .container_titles_two{
+        height: 300px;
+        padding: 20px;
+        position: relative;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
     .container_titles .title {
         font-size: 2em;
     }
     .button-title {
         align-items: center;
     }
-    .link {
+    .raise {
         position: absolute;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 20%;
+        margin-top: 10%;
+        font-size: 1.3em;
+    }
+    .p1 {
+        order: 1;
+        flex: 5 1 40%;
+    }
+    .p2 {
+        order: 2;
+        flex: 1 1 10%;
     }
 }
 

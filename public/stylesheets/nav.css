@@ -1,5 +1,5 @@
 body {
-    background-color: #2e3941;
+    background-color: 		#3b2f50;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -10,12 +10,14 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
+    margin: 0;  
     display: flex;
     flex-flow: row wrap;
 }
 .wrapper > * {
     flex: 1 100%;
 }
+
 .nav {
     width: 100px;
     height: 38px;
@@ -32,7 +34,7 @@ body {
     -webkit-transition: all 1s ease;
     transform: translate(-50%, -50%);
     top: 5%;
-    background-color: #707070;
+    background-color: transparent;
 }
 .nav button#main-btn {
     background: transparent;

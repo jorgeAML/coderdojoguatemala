@@ -1,0 +1,40 @@
+doctype html
+html    
+    head
+        title= 'Coder Dojo Guatemala'
+        link(rel='stylesheet', href='./stylesheets/nav.css')
+        link(rel='stylesheet', href='./stylesheets/firstPart.css')
+        <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
+    body
+    block bodyNav
+    //this is the nav links update if you needed!
+    - var link1 = 'sobre el dojo';
+    - var link2 = 'reglas';
+    - var link3 = 'proyectos';
+    - var link4 = 'tutoriales';
+    - var mainLink = 'coder dojo';
+
+    div(class='wrapper')
+        div(class='nav' id='main-nav')
+            div(id='sub-navs')
+                button(class='sub-btn') 
+                    a(href='#') #{link1.toUpperCase()}
+                button(class='sub-btn')
+                    a(href='#') #{link2.toUpperCase()}
+                button(class='sub-btn')
+                    a(href='#') #{link3.toUpperCase()}
+                button(class='sub-btn')
+                     a(href='#') #{link4.toUpperCase()}
+            button(id='main-btn') #{mainLink.toUpperCase()}
+        section(class='container')
+            img(class='img-portrait' src='./images/nasa.jpg')
+            div(class='skewed')            
+        div(class='container_one')
+            div 
+                 p hola hola 
+    </html>
+    script(src='./javascripts/nav.js')
+    
+    
+    
+    

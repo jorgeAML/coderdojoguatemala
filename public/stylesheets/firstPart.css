@@ -4,12 +4,11 @@
     object-fit: cover;
     transform: skewY(5deg);
     transform-origin: top right;
-    position: relative;
     border-bottom: 2px solid #2b2219;
+    order: 1;
 }
-
 .skewed {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     right: 0;
@@ -23,15 +22,78 @@
     box-shadow: 1px 11px 17px -12px #2b2219;
   }
 
+  /*here start the presentation*/
+
   .container_one {
     background-color: transparent;
     position: absolute;
     margin-top: 40%;
   }
-
+  .container_titles {
+    display: flex;
+    margin: 0;
+}
+.row {
+    max-width: 1280;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.column {
+    /*for mobiles*/
+}
+.container_titles .title {
+    flex: auto;
+    align-self: flex-start;
+    color: #f9f8f9;
+    order: 1;
+    font-family: 'Work Sans', sans-serif;
+}
+.container_titles .paragraph_title {
+    flex: auto;
+    align-self: auto;
+    color: #f9f8f9;
+    order: 2;
+    font-family: 'Work Sans', sans-serif;
+}
+.link {
+    flex: content;
+    align-self: center;
+    order: 3;
+    color: #f9f8f9;
+    font-family: 'Work Sans', sans-serif;
+}
 /*media query for desktops*/
 @media only screen and (min-width: 1030px) {
     .img-portrait {
         position: absolute;
+        
+    }
+    .container_titles {
+        height: 300px;
+        padding: 20px;
+        position: absolute;
+        margin-left: 5%;
+    }
+    .container_titles .title {
+        font-size: 2em;
+    }
+    .button-title {
+        align-items: center;
+    }
+    .link {
+        position: absolute;
+        text-align: center;
+        margin-left: 25%;
+    }
+}
+
+/*media query for mobiles*/
+@media only screen and (max-width: 1029px) {
+    .column {
+        flex: 1;
+    }
+    [class^="column"] {
+        padding: 0 0.5em;
     }
 }

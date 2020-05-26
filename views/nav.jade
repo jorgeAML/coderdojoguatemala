@@ -5,6 +5,7 @@ html
         title= 'Coder Dojo Guatemala'
         link(rel='stylesheet', href='./stylesheets/nav.css')
         link(rel='stylesheet', href='./stylesheets/firstPart.css')
+        link(rel='stylesheet', href='./stylesheets/secondPartContainers.css')
         <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@531&display=swap" rel="stylesheet">
     body
@@ -52,9 +53,38 @@ html
 
         //the containers part
 
-        div(class='container_one')
-            div 
-                 a(href='#') hola hola 
+        div(class='container_sp')
+            div(class='column_sp')
+                 h1(class="h1_sp") Escoge algo para aprender
+                 p(class='p_sp') Busca entre como construir un robot, diseñalo y programalo a tu antojo, diseña y programa una página web desde cero o vuelvete todo un <br> analista de datos en nuestra sección de 'patrones o coincidencias'.
+        section(class='container_tp')
+            div(class='row_tp')
+                div(class='margin_tp')
+                    div(class='inline_tp')
+                        div(class='post_1tp orden1')
+                            img(class='img1' src='./images/CrystalOne500.png')
+                            h2(class='h2_tp') Robotica
+                            hr(class='hr_tp')
+                            div(class='in_box')
+                                p Aprende a programar tus propios robots con la ayuda de Rasberry, node, python, javaScript incluso diseñalos tu mismo.
+                            button(class='box_button fill')
+                                a(href='#') Aprender mas
+                        div(class='post_1tp orden2')
+                            img(class='img1 adjust_img' src='./images/CrystalTwo500.png') 
+                            h2(class='h2_tp') Introduccion a la web
+                            hr(class='hr_tp')
+                            div(class='in_box')
+                                p Aprende a diseñar y realizar páginas web desde su arquitectura hasta crea tu propio servidor.
+                            button(class='box_button fill')
+                                a(href='#') Aprender mas
+                        div(class='post_1tp orden3')
+                            img(class='img1' src='./images/CrystalThree500.png') 
+                            h2(class='h2_tp') Neo4j
+                            hr(class='hr_tp')
+                            div(class='in_box')
+                                p Aprende a hacer patrones y algoritmos de grafos, con proyectos realistas incluso usalo para Inteligencia Artificial.
+                            button(class='box_button fill')
+                                a(href='#') Aprender mas
     </html>
     script(src='./javascripts/nav.js')
     

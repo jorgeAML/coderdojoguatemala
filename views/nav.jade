@@ -6,6 +6,7 @@ html
         link(rel='stylesheet', href='./stylesheets/nav.css')
         link(rel='stylesheet', href='./stylesheets/firstPart.css')
         link(rel='stylesheet', href='./stylesheets/secondPartContainers.css')
+        link(rel='stylesheet', href='./stylesheets/footer.css')
         <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@531&display=swap" rel="stylesheet">
     body
@@ -16,6 +17,8 @@ html
     - var link3 = 'proyectos';
     - var link4 = 'tutoriales';
     - var mainLink = 'coder dojo';
+    
+
 
     div(class='wrapper')
         div(class='nav' id='main-nav')
@@ -85,6 +88,41 @@ html
                                 p Aprende a hacer patrones y algoritmos de grafos, con proyectos realistas incluso usalo para Inteligencia Artificial.
                             button(class='box_button fill')
                                 a(href='#') Aprender mas
+
+        //VARIABLES FOR FOOTER
+        - var footer0 = 'footer-container';
+        - var footer1 = 'footer-row';
+        - var footer2 = 'footer-adjust';
+        - var footer3 = 'footer-adjust2';
+        - var footer4 = ['footer-post', 'ordenf1'];
+        - var footer5 = ['footer-post', 'ordenf2'];
+        - var footer6 = ['footer-post', 'ordenf3'];
+        - var footer7 = ['footer-post', 'ordenf4'];
+        - var footerp = ['p-adjust'];
+        //PARRAFOS
+        - var navegacion = ['Blog', 'Tutoriales', 'Contacto', 'Privacidad', 'Terminos & condiciones'];
+        - var catalogo = ['Neo4j', 'Redis', 'Robotica', 'JavaScript', 'Making a Website', 'CSS', 'Nodes'];
+        - var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'Airweave'];
+        - var proposito = ["Coder dojo Guatemala es un club de programacion para la educacion y desarrollo de Guatemala de los creadores de MedicinaResources" ];
+        footer(class=footer0)
+            div(class=footer1)
+                div(class=footer2)
+                    div(class=footer3)
+                        div(class=footer4)
+                            img(src="./images/creas.png", alt="logo" class='footer-img')
+                            p(class=footerp) #{proposito}
+                        div(class=footer5)
+                            h3 Navegacion
+                            each item in navegacion
+                                ul= item
+                        div(class=footer6)
+                            h3 Catalogo
+                            each item in catalogo
+                                ul= item
+                        div(class=footer7)
+                            h3 Social
+                            each item in social
+                                ul= item
     </html>
     script(src='./javascripts/nav.js')
     

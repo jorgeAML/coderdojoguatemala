@@ -41,4 +41,45 @@ $(document).ready(function () {
         href: "#",
         rel: urlDefault
     });
+    $(f2).find("a").eq(3).html(catalogo[3]).addClass("af9").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f2).find("a").eq(4).html(catalogo[4]).addClass("af10").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f2).find("a").eq(5).html(catalogo[5]).addClass("af11").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f2).find("a").eq(6).html(catalogo[6]).addClass("af12").attr({
+        href: "#",
+        rel: urlDefault
+    });
+
+    var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'Airweave'];
+    var f3 = document.getElementsByClassName('footer-a3');
+
+    $(f3).find("a").eq(0).html(social[0]).addClass("af13").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f3).find("a").eq(1).html(social[1]).addClass("af14").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f3).find("a").eq(2).html(social[2]).addClass("af15").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f3).find("a").eq(3).html(social[3]).addClass("af16").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    $(f3).find("a").eq(4).html(social[4]).addClass("af17").attr({
+        href: "#",
+        rel: urlDefault
+    });
+    
 });

@@ -105,7 +105,7 @@ html
         //YOU MUST TO UPDATE IN footer.js
         - var navegacion = ['', '', '', '', ''];
         - var catalogo = ['', '', '', '', '', '', '', ''];
-        - var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'Airweave'];
+        - var social = ['', '', '', '', ''];
         - var proposito = ["Coder dojo Guatemala es un club de programacion para la educacion y desarrollo de Guatemala de los creadores de MedicinaResources" ];
         //ENLACES
         //if you want to update the URLs, so you must chekc the file: footer.js there 
@@ -130,7 +130,8 @@ html
                         div(class=footer7)
                             h3 Social
                             each item in social
-                                ul= item
+                                ul(class='footer-a3')
+                                    a= item
     </html>
     script(src='./javascripts/nav.js')
     script(src='./javascripts/footer.js')

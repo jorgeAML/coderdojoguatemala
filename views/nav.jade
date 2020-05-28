@@ -9,6 +9,7 @@ html
         link(rel='stylesheet', href='./stylesheets/footer.css')
         <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@531&display=swap" rel="stylesheet">
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
     body
     block bodyNav
     //this is the nav links update if you needed!
@@ -100,10 +101,15 @@ html
         - var footer7 = ['footer-post', 'ordenf4'];
         - var footerp = ['p-adjust'];
         //PARRAFOS
-        - var navegacion = ['Blog', 'Tutoriales', 'Contacto', 'Privacidad', 'Terminos & condiciones'];
-        - var catalogo = ['Neo4j', 'Redis', 'Robotica', 'JavaScript', 'Making a Website', 'CSS', 'Nodes'];
+        //EMPTY ARRAYS FOR JQUERY MANIPULATION
+        //YOU MUST TO UPDATE IN footer.js
+        - var navegacion = ['', '', '', '', ''];
+        - var catalogo = ['', '', '', '', '', '', '', ''];
         - var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'Airweave'];
         - var proposito = ["Coder dojo Guatemala es un club de programacion para la educacion y desarrollo de Guatemala de los creadores de MedicinaResources" ];
+        //ENLACES
+        //if you want to update the URLs, so you must chekc the file: footer.js there 
+        //you going to find all the syntax for make the update.
         footer(class=footer0)
             div(class=footer1)
                 div(class=footer2)
@@ -114,17 +120,21 @@ html
                         div(class=footer5)
                             h3 Navegacion
                             each item in navegacion
-                                ul= item
+                                ul(class='footer-a1')
+                                    a= item
                         div(class=footer6)
                             h3 Catalogo
                             each item in catalogo
-                                ul= item
+                                ul(class='footer-a2')
+                                    a= item
                         div(class=footer7)
                             h3 Social
                             each item in social
                                 ul= item
     </html>
     script(src='./javascripts/nav.js')
+    script(src='./javascripts/footer.js')
+    
     
     
     

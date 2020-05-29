@@ -25,3 +25,12 @@ So after installed NodeJs Environment you might to create the route of the proje
 I will explain the same like in [ExpressJS.com](https://expressjs.com/en/starter/installing.html) but remember you must to be in your route like in the step before:
   > $ mkdir yournewapp <br>
   > $ cd yournewapp
+  > $ npm init
+  > $ entry point(index.js)
+
+After this pint you should have a packaje.json for now make DEFAULT everything and the we gonna install express in the same directory of your application
+  > $ npm install express --save
+  > $ npm install express --save jquery
+
+We suggest to make the express Generator but you can clone this repository to the directory that you are using right now for this project, because we alredy made all the steps before, but we might know that you must to install express, nodeJs and jQuery in your computer
+If you have all the enviroments and module that we say before, just clone the repository and paste it in your directory.

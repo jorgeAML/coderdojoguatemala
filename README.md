@@ -3,8 +3,10 @@ Ok, this is a programation club where we gonna set tutorials and projects about 
 But right now we are working in the site, design and how gonna be the templates, of course this is the first version.
 
 ### See the project in onion link
-Yes right now we are deploying and using the TOR service, so if you want to see how the project goes, please visit the onion link
-[CoderDojoGuatemala](nb7trcow6s4pdqbxdfzicjyldxzgunqe3dxer67ctxrg53agai6ossyd.onion) Just a reminder: install and use [TOR](https://www.torproject.org/ "Browse Privately. Explore Freely") to see the project, you can not accesed via the normal web like google chrome or Edge.
+Yes right now we are deploying and using the TOR service, so if you want to see how the project goes, please visit the onion link: 
+  > nb7trcow6s4pdqbxdfzicjyldxzgunqe3dxer67ctxrg53agai6ossyd.onion
+Just a reminder: install and use [TOR](https://www.torproject.org/ "Browse Privately. Explore Freely") to see the project, you can not accesed via the normal web like google chrome or Edge.
+  
 
 ## Installing Coder dojo Guatemala
 this is the development mode for this project, we are using Express and node.js so recommend to install Node enviroment first and then your express application, we gonna explain in the next section how for those that are working for the first time in node environment.

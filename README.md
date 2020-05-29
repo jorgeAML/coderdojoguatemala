@@ -36,10 +36,10 @@ We suggest to make the express Generator but you can clone this repository to th
 
 If you have all the enviroments and module that we say before, just clone the repository and paste it in your directory.
 
-## Run the server using Nodes
+## Run the server using Node
 after you complete the steps to install the project you can run the server in your computer and modify, how to make this:
-  > being in your directory 
-  > \myapplication set DEBUG=myapplication:* & npm start
-  > The server is listening on port 1703
+  > being in your directory <br>
+  > \myapplication set DEBUG=myapplication:* & npm start <br>
+  > The server is listening on port 1703 <br>
   
 then go and check in your browser and type localhost:1703 

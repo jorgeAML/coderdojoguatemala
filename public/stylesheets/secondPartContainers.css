@@ -95,7 +95,7 @@
 /*color*/
 .fill {
 	color: var(--color-button-fill);
-	transition: 0.25s;
+	transition: 0.95s;
 }
 .fill:hover {
 	border-color: var(--hover-fill);

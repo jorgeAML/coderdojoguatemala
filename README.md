@@ -13,3 +13,8 @@ Depending on your system if you are using Windows, Linux or Macos visit the core
 ## Making the route
 So after installed NodeJs Environment you might to create the route of the project, this is very simple, create a new folder whatever you want in your computer and then install Exprees there just like this:
   > C:\users\yourSystem\Documents\NodesProjects\myApplication
+  
+## Installing Express
+I will explain the same like in [ExpressJS.com](https://expressjs.com/en/starter/installing.html) but remember you must to be in your route like in the step before:
+  > $ mkdir yournewapp
+  > $ cd yournewapp

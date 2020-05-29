@@ -81,5 +81,35 @@ $(document).ready(function () {
         href: "#",
         rel: urlDefault
     });
+
+    //EVENTS
+
     
+    //IMAGES FOR FOOTER
+    var f4 = document.getElementsByClassName('ordenf1');
+    $(f4).find('img').eq(0).addClass('footer-img').attr({
+        src: "./images/logo_coderDojo.png",
+        alt: "logo of Coder Dojo Guatemala"
+    });
+
+    //THE LAST PART OF THE FOOTER
+    var hr = document.getElementsByClassName("footer-container");
+    var createHr = $("<hr></hr>");
+    var pieDePagina = $("<p>Copyright &#169 2020 Coder Dojo Guatemala por AML Productions</p>")
+
+    createHr.appendTo(hr);
+    pieDePagina.appendTo(hr);
+    pieDePagina.insertAfter(createHr);
+
+    $(createHr).addClass('hr-footer').css({
+        color: '#576675',
+        border: '1px dashed #576675',
+        marginLeft: '20%',
+        marginRight: '20%'
+    });
+    $(pieDePagina).addClass('piePagina-footer').css({
+        color: "#f9f8f9",
+        fontFamily: 'Squada One, cursive',
+        textAlign: 'center'
+    });
 });

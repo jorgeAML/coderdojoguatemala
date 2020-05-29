@@ -34,6 +34,10 @@
     color: var(--color-font-one);
     font-family: var(--font-one);
 }
+.af17:hover {
+    color: 	#e70052;
+    transition: 1s ease-in-out;
+}
 /*VARIABLES*/
 .p-adjust, .footer-post > h3, .footer-post > ul {
     --font-one: 'Work Sans', sans-serif;
@@ -41,6 +45,7 @@
     --color-font-one: #f9f8f9;
     --color-font-two: 	#576675;
 }
+
 
 @media only screen and (min-width: 1030px) {
     .ordenf1 {
@@ -63,4 +68,5 @@
     .p-adjust {
         font-size: 0.8rem;
     }
+    
 }

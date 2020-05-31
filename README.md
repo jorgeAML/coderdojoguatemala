@@ -1,7 +1,7 @@
 # coder dojo guatemala
 This is a programming club where we are going to post not only tutorials and robotics projects but also how to develop websites, games and R or Neo4j language. For those who want to take your skills to the next level.
 
-Right now we are working on the development website, its design and the templates, we are planning to improve this first version.
+Right now we are working on the development website, its design and its templates, willing to improve this first version.
 
 ### See the project in onion link
 Yes right now we are deploying and using the TOR service, so if you want to see how the project goes, please visit the onion link: 
@@ -11,7 +11,7 @@ Just a reminder: install and use [TOR](https://www.torproject.org/ "Browse Priva
   
 
 ## Installing Coder dojo Guatemala
-this is the development mode for this project, we are using Express and node.js so recommend to install Node enviroment first and then your express application, we gonna explain in the next section how for those that are working for the first time in node environment.
+this is the development mode for this project, we are using Express and node.js, We recommend to install Node enviroment first and then your express application, we gonna explain in the next section how for those that are working for the first time in node environment.
 
 ## Installing node
 You need the nodejs environment in your system, because we are using express and the server was built it with nodes, so sit tight if you want to install it in your computer:

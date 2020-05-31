@@ -1,6 +1,6 @@
 # coder dojo guatemala
-This is a programming club where we are going to post tutorials and projects about robotics, how to make websites, games and even R or Neo4j language for those that want to take your skills to the next level or if you are novice do not worry.
-But right now we are working on the website, design and the templates, of course this is the first version.
+This is a programming club where we are going to post not only tutorials and robotics projects but also how to develop websites, games and R or Neo4j language. For those who want to take your skills to the next level.
+Right now we are working on the development website, it's design and the templates, we are planning to improve this first version.
 
 ### See the project in onion link
 Yes right now we are deploying and using the TOR service, so if you want to see how the project goes, please visit the onion link: 

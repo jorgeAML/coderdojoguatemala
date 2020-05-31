@@ -4,6 +4,7 @@ body {
     width: 100%;
     overflow: auto;
     margin: 0;
+    transition: 1s ease;
 }
 .wrapper {
     top: 0;

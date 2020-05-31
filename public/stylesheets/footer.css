@@ -1,5 +1,6 @@
-.footer0 {
-    /*nothing here*/
+.footer-container {
+    /*background-image: url("./images/dark-honeycomb.png");*/
+    border-top: 3px solid #576675;
 }
 .footer-img {
     width: 60%;
@@ -34,9 +35,17 @@
     color: var(--color-font-one);
     font-family: var(--font-one);
 }
-.af17:hover {
-    color: 	#e70052;
-    transition: 1s ease-in-out;
+.footer-a1 > a:hover {
+    color: 	rgb(100,240,251);
+    transition: 0.6s ease-in-out;
+}
+.footer-a2 > a:hover {
+    color: rgb(26,233,76);
+    transition: 0.6s;
+}
+.footer-a3 > a:hover {
+    color: rgb(205,245,11);
+    transition: 0.6s;
 }
 /*VARIABLES*/
 .p-adjust, .footer-post > h3, .footer-post > ul {

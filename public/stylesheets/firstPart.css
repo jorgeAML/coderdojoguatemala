@@ -7,6 +7,7 @@
     border-bottom: 3px dashed 	#dee2e1;
     order: 1;
     box-shadow: 1px 15px 17px -12px #2b2219;
+    background-color: #231d25;
 }
 .skewed {
     position: relative;
@@ -44,9 +45,7 @@
     margin: 0 auto;
 }
 .row {
-    max-width: 1280px;
-    display: flex;
-    flex-wrap: wrap;
+    
     margin: 0 auto;
 }
 .column {
@@ -99,7 +98,7 @@
     color: 	#f5b138;
 }
 /*media query for desktops*/
-@media only screen and (min-width: 1030px) {
+@media only screen and (min-width: 1280px) {
     .img-portrait {
         position: absolute;
         
@@ -111,7 +110,7 @@
         margin-left: 5%;
     }
     .container_titles_two{
-        height: 300px;
+        height: 60px;
         padding: 20px;
         position: relative;
         margin-top: 30%;
@@ -137,6 +136,10 @@
     .p2 {
         order: 2;
         flex: 1 1 10%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 

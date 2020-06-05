@@ -1,0 +1,50 @@
+/*Tablets*/
+@media only screen and (max-width: 1279px) {
+    .img-portrait {
+        position: relative;
+    }
+    .container_titles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        margin-top: -30rem;
+        margin-left: -7rem;
+    }
+    .container_titles > .titles {
+        font-size: 3em;
+        order: 1;
+    }
+    .container_titles > .paragraph_title {
+        order: 2;
+        font-size: 1rem;
+    }
+    .button-title {
+        order: 3;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    .container_titles_two {
+        font-size: 10px;
+        margin-top: -7rem;
+        position: absolute;
+        margin-left: 1.5rem;
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .p1 {
+        order:1;
+        flex: 1 1 100%;
+    }
+    .p2 {
+        order: 2;
+        flex: 1 1 10%;
+        text-align: right;
+        margin-right: 10%;
+    }
+}

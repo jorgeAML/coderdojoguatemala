@@ -1,0 +1,68 @@
+@media only screen and (max-width: 812px) {
+    .nav {
+        height: 30px;
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        top: 5%;
+    } 
+    .nav button#main-btn {
+        padding: 15px;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        font-size: 10px;
+    }
+    .nav #sub-navs > button {
+        display: none;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        font-size: 10px;
+    }
+    .img-portrait {
+        position: relative;
+    }
+    .container_titles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        margin-top: -19rem;
+        margin-left: -3rem;
+    }
+    .title  > h1{
+        font-size: 1em;
+        order: 1;
+    }
+    .paragraph_title {
+        font-size: 0.7em;
+    }
+    .button-title {
+        font-size: xx-small;
+    }
+    .container_titles_two {
+        font-size: 0.5em;
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .p1 {
+        flex: 1 1 50%;
+    }
+    .p2 {
+        text-align: right;
+        flex: 1 1 10%;
+    }
+}
+/*IPHONE 5S */
+@media only screen and (max-width: 569px) {
+    .container_titles {
+        /* top | right | bottom | left */
+        margin: -17rem 0 0 -2rem;
+    }
+}

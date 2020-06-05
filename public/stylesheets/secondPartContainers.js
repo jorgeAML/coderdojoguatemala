@@ -8,7 +8,7 @@ export default StyleSheet.create({
       'justifyContent': 'center',
       'alignContent': 'center',
       'position': 'relative',
-      'marginTop': [{ 'unit': '%V', 'value': -0.1 }]
+      'marginTop': [{ 'unit': '%V', 'value': 0.05 }]
     }
   },
   'container_sp > *': {
@@ -78,6 +78,7 @@ export default StyleSheet.create({
     // we built it in the screen media
   },
   'box_button': {
+    'backgroundColor': 'transparent',
     'backgroundImage': 'linear-gradient(-150deg,#231d25,#231d25,#40214a)',
     'position': 'relative',
     'borderRadius': '5px',
@@ -101,7 +102,7 @@ export default StyleSheet.create({
   // color
   'fill': {
     'color': 'var(--color-button-fill)',
-    'transition': '0.25s'
+    'transition': '0.95s'
   },
   'fill:hover': {
     'borderColor': 'var(--hover-fill)',

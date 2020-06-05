@@ -47,8 +47,13 @@
     color: rgb(205,245,11);
     transition: 0.6s;
 }
+.piePagina-footer {
+    color: var(--color-font-one);
+    font-family: var(--font-two);
+    text-align: center;
+}
 /*VARIABLES*/
-.p-adjust, .footer-post > h3, .footer-post > ul {
+.p-adjust, .footer-post > h3, .footer-post > ul, .piePagina-footer {
     --font-one: 'Work Sans', sans-serif;
     --font-two: 'Squada One', cursive;
     --color-font-one: #f9f8f9;

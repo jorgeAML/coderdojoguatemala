@@ -1,8 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  'footer0': {
-    // nothing here
+  'footer-container': {
+    // background-image: url("./images/dark-honeycomb.png");
+    'borderTop': [{ 'unit': 'px', 'value': 3 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#576675' }]
   },
   'footer-img': {
     'width': [{ 'unit': '%H', 'value': 0.6 }],
@@ -39,6 +40,23 @@ export default StyleSheet.create({
     'color': 'var(--color-font-one)',
     'fontFamily': 'var(--font-one)'
   },
+  'footer-a1 > a:hover': {
+    'color': 'rgb(100,240,251)',
+    'transition': '0.6s ease-in-out'
+  },
+  'footer-a2 > a:hover': {
+    'color': 'rgb(26,233,76)',
+    'transition': '0.6s'
+  },
+  'footer-a3 > a:hover': {
+    'color': 'rgb(205,245,11)',
+    'transition': '0.6s'
+  },
+  'piePagina-footer': {
+    'color': 'var(--color-font-one)',
+    'fontFamily': 'var(--font-two)',
+    'textAlign': 'center'
+  },
   // VARIABLES
   'p-adjust': {
     'FontOne': ''Work Sans', sans-serif',
@@ -53,6 +71,12 @@ export default StyleSheet.create({
     'ColorFontTwo': '#576675'
   },
   'footer-post > ul': {
+    'FontOne': ''Work Sans', sans-serif',
+    'FontTwo': ''Squada One', cursive',
+    'ColorFontOne': '#f9f8f9',
+    'ColorFontTwo': '#576675'
+  },
+  'piePagina-footer': {
     'FontOne': ''Work Sans', sans-serif',
     'FontTwo': ''Squada One', cursive',
     'ColorFontOne': '#f9f8f9',

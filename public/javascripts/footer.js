@@ -107,9 +107,5 @@ $(document).ready(function () {
         marginLeft: '20%',
         marginRight: '20%'
     });
-    $(pieDePagina).addClass('piePagina-footer').css({
-        color: "#f9f8f9",
-        fontFamily: 'Squada One, cursive',
-        textAlign: 'center'
-    });
+    $(pieDePagina).addClass('piePagina-footer');
 });

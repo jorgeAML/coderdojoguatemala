@@ -1,7 +1,7 @@
 $(document).ready( function () {
     var mode = document.getElementsByClassName("light-mode");
     var divMode = $("<div></div>");
-    var spanIcon = $("<i class='material-icons md-36 md-light adjust-icon active'>&#xe891</i>");
+    var spanIcon = $("<i></i>");
 
     var divMode2 = $("<div></div>");
     var buttonLight = $("<button></button>")
@@ -15,13 +15,13 @@ $(document).ready( function () {
     buttonLight.appendTo(divMode2);
     
     $(buttonLight).addClass("button-light").html("Invertir colores");
+    $(spanIcon).find("i").addClass("material-icons md-36 md-light adjust-icon active").html("&#xe891");
     $(divMode).addClass("icon");
     $('.icon').css({
         position: 'relative'
     })
     $(mode).css({
-        position: 'relative',
-        marginTop: '-17%'
+        position: 'relative'
     });
     $('.adjust-icon').css({
         marginLeft: '5%'
@@ -49,11 +49,14 @@ $(document).ready( function () {
       $(".hr-footer").toggleClass("hr-footer-change");
       $(".footer-container").toggleClass("footer-container-change");
       //footer
-      var afs1 = ['.af1', '.af2', '.af3', '.af4', '.af5'];
+      var afs1 = ['.af1', '.af2', '.af3', '.af4', '.af5','.af6', '.af7', '.af8', '.af9', '.af10', '.af11', '.af12', '.af13',
+                    '.af14', '.af15', '.af16', '.af17', '.p-adjust'];
         for(var i = 0; i < afs1.length; i++) {
           $(afs1[i]).toggleClass("footer-a1-change");
         }
-      
+      $(".piePagina-footer").toggleClass('footer-a1-change');
+      $('.button-light').toggleClass('button-dark');
+      $(".fill").toggleClass("fill-change");
     });
 
 

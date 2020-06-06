@@ -4,7 +4,7 @@ export default StyleSheet.create({
   'container_sp': {
     'display': 'flex',
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
-    'only screen&&>w1030': {
+    'only screen&&>w1280': {
       'justifyContent': 'center',
       'alignContent': 'center',
       'position': 'relative',
@@ -30,22 +30,19 @@ export default StyleSheet.create({
     'fontFamily': 'var(--font-work)',
     'color': 'var(--color-h2)'
   },
-  'hr_tp': {
-    'color': 'var(--color-h2)'
-  },
   'row_tp': {
     'display': 'flex',
     'flexWrap': 'wrap',
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }]
   },
-  'margin_tp': {
-    'margin': [{ 'unit': '%V', 'value': 0.03 }, { 'unit': '%H', 'value': 0.03 }, { 'unit': '%V', 'value': 0.02 }, { 'unit': '%H', 'value': 0.02 }]
-  },
-  'inline_tp': {
-    'display': 'inline-flex',
-    'flexDirection': 'row',
-    'alignContent': 'center'
-  },
+  // .margin_tp {
+    margin: 3% 3% 2% 2%;
+}
+.inline_tp {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+}
   'in_box': {
     'backgroundImage': 'linear-gradient(-150deg,#231d25,#231d25,#40214a)',
     'position': 'relative',

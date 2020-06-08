@@ -1,4 +1,4 @@
-/*Tablets*/
+/*Tablets only for control*/
 @media only screen and (max-width: 1279px) {
     .img-portrait {
         position: relative;
@@ -46,5 +46,39 @@
         flex: 1 1 10%;
         text-align: right;
         margin-right: 10%;
+    }
+    /*footer*/
+    
+    .footer-img {
+        width: 50%;
+        margin-top: 6%;
+    }
+    .footer-adjust2 {
+        display: inline-flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .ordenf1 {
+        order: 1;
+        text-align: center;
+        flex: 2 2 10%;
+    }
+    .p-adjust {
+        font-size: 0.6rem;
+    }
+    .ordenf2 {
+        order: 2;
+        flex: 2 2 10%;
+    }
+    .ordenf3 {
+        order: 3;
+        flex: 2 2 10%;
+    }
+    .ordenf4 {
+        order: 4;
+        flex: 2 2 10%;
+    }
+    .footer-post > ul {
+        font-size: 0.8rem;
     }
 }

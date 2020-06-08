@@ -5,10 +5,6 @@ export default StyleSheet.create({
     // background-image: url("./images/dark-honeycomb.png");
     'borderTop': [{ 'unit': 'px', 'value': 3 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#576675' }]
   },
-  'footer-img': {
-    'width': [{ 'unit': '%H', 'value': 0.6 }],
-    'height': [{ 'unit': '%V', 'value': 0.6 }]
-  },
   'p-adjust': {
     'color': 'var(--color-font-one)',
     'fontFamily': 'var(--font-one)',
@@ -20,14 +16,6 @@ export default StyleSheet.create({
     'display': 'flex',
     'flexWrap': 'wrap',
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }]
-  },
-  'footer-adjust': {
-    'margin': [{ 'unit': '%V', 'value': 0.03 }, { 'unit': '%H', 'value': 0.03 }, { 'unit': '%V', 'value': 0.02 }, { 'unit': '%H', 'value': 0.02 }]
-  },
-  'footer-adjust2': {
-    'display': 'inline-flex',
-    'flexDirection': 'row',
-    'alignContent': 'center'
   },
   'footer-post': {
     'backgroundColor': 'transparent'

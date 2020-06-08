@@ -2,10 +2,7 @@
     /*background-image: url("./images/dark-honeycomb.png");*/
     border-top: 3px solid #576675;
 }
-.footer-img {
-    width: 60%;
-    height: 60%;
-}
+
 .p-adjust {
     color: var(--color-font-one);
     font-family: var(--font-one);
@@ -15,14 +12,8 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.footer-adjust {
-    margin: 3% 3% 2% 2%;
-}
-.footer-adjust2 {
-    display: inline-flex;
-    flex-direction: row;
-    align-content: center;
-}
+
+
 .footer-post {
     background-color: transparent;
 
@@ -82,5 +73,15 @@
     .p-adjust {
         font-size: 0.8rem;
     }
-    
+    .footer-adjust {
+        margin: 3% 3% 2% 2%;
+    }
+    .footer-img {
+        width: 60%;
+    }
+    .footer-adjust2 {
+        display: inline-flex;
+        flex-direction: row;
+        align-content: center;
+    }
 }

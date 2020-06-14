@@ -2,36 +2,34 @@ $(document).ready( function () {
     var a = document.getElementsByClassName('nav');
     /*INSERT YOUR CLASSES HERE*/
     var classes = ['navbar', 'navbar_items', 'navbar_link'];
-    var linkClasses = ['link1', 'material-icons', 'md-18', 'md-light'];
+    var linkClasses = ['link1', 'material-icons md-18 md-light', 'font_bungee link1', 'font_baloo link2'];
     var urlLinks = ['#', '#', '#', '#', '#'];
     var text = ['Coder Dojo Guatemala', 'Proyectos', 'Tutoriales', 'Blog', 'Donaciones'];
 
     /*links their classes and references*/
     var aTag = $("<a>{{t0}}</a>").attr({
         href: urlLinks[0],
-        class: linkClasses[0]
+        class: linkClasses[2]
     });
     var bTag = $("<a>{{t1}}</a>").attr({
         href: urlLinks[1],
-        class: linkClasses[0]
+        class: linkClasses[3]
     });
     var cTag = $("<a>{{t2}}</a>").attr({
         href: urlLinks[2],  
-        class: linkClasses[0]
+        class: linkClasses[3]
     });
     var dTag = $("<a>{{t3}}</a>").attr({
         href: urlLinks[3],
-        class: linkClasses[0]
+        class: linkClasses[3]
     });
     var eTag = $("<a>{{t4}}</a>").attr({
         href: urlLinks[4],
-        class: linkClasses[0]
+        class: linkClasses[3]
     });
-    for(var i = 1; i <= linkClasses.length; i++){
-        var ff = linkClasses[i];
-    };
+    
     var fTag = $("<i>more_vert</i>").attr({
-        class: "material-icons md-18 md-light"
+        class: linkClasses[1]
     });
     
 

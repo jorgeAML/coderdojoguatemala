@@ -1,0 +1,27 @@
+/*css for nav*/
+.navbar {
+    display: flex;
+    text-align: center;
+}
+.navbar_items {
+    display: flex;
+}
+/*FOR SCREEN BIGGER THAN 1080px*/
+@media only screen and (min-width: 1080px){
+    .navbar {
+        padding: 14px;
+    }
+    .navbar_items {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+}
+
+/*FOR SCREENS SMALLERS THAN 1079px*/
+@media only screen and (max-width: 1079px){
+    .navbar_items {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}

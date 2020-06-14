@@ -1,20 +1,86 @@
 /*css for nav*/
+*, *:after, *:before {
+    box-sizing: border-box;
+}
 .navbar {
     display: flex;
     text-align: center;
 }
+.nav {
+    border-bottom: 3px solid 	#cccccc;
+    box-shadow: 0 1px 3px 1px 	#aaaaaa;
+}
 .navbar_items {
     display: flex;
+}
+.font_bungee {
+    font-family: 'Bungee', cursive;
+}
+.font_baloo {
+    font-family: 'Baloo Paaji 2', cursive;
 }
 /*FOR SCREEN BIGGER THAN 1080px*/
 @media only screen and (min-width: 1080px){
     .navbar {
         padding: 14px;
+        position: relative;
+        align-items: baseline;
     }
     .navbar_items {
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-end;
+        margin-left: 40%;
+    }
+    .navbar_link {
+        /* top | right | bottom | left */
+        margin: 0 20px 0 20px;
+    }
+    .navbar a {
+        color: #202020;
+        text-decoration: none;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        padding: 0 6px;
+        transition: 5s cubic-bezier(0.11, 0.7, 0, 1);
+    }
+    .navbar a:hover {
+        color: 	#4537ed;
+    }
+    .link1:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #eae9e9;
+        content: '';
+        transform: scale(0);
+        -webkit-transition: transform 5s cubic-bezier(0.11, 0.7, 0, 1);
+        -moz-transition: transform 5s cubic-bezier(0.11, 0.7, 0, 1);
+        -ms-transition: transform 5s cubic-bezier(0.11, 0.7, 0, 1);
+        -o-transition: transform 5s cubic-bezier(0.11, 0.7, 0, 1);
+        transition: transform 5s cubic-bezier(0.11, 0.7, 0, 1);
+    }
+    .link1:hover:after {
+        transform: scale(1);
+    }
+    .link2:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #eae9e9;
+        content: '';
+        transform: translate3d(-101%,0,0);
+        transition: transform 5s cubic-bezier(0.11, 0.7, 0, 1);
+    }
+    .link2:hover:after {
+        transform: translate3d(0,0,0);
     }
 }
 

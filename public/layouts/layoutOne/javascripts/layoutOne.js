@@ -10,6 +10,10 @@ $(document).ready( function () {
         href: urlLinks[0],
         class: linkClasses[0]
     });
+    var bTag = $("<a>{{t1}}</a>").attr({
+        href: urlLinks[1],
+        class: linkClasses[0]
+    });
 
     
     /*MANIPULATION BEGIN*/
@@ -20,13 +24,14 @@ $(document).ready( function () {
     });
     $(".navbar").find("nav").eq(0).addClass(classes[1]);
     $(".navbar").find("div").eq(0).addClass(classes[2]).html(aTag);
-    $(".navbar").find("div").eq(2).addClass(classes[2]).html()
+    $(".navbar").find("div").eq(2).addClass(classes[2]).html(bTag);
         //textA.appendTo(aTag);
     //space
     new Vue({
         el: ".nav",
         data: {
             t0: text[0],
+            t1: text[1],
             k0: linkClasses[0]
         }
     });

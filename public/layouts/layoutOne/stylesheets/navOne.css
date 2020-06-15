@@ -2,6 +2,9 @@
 *, *:after, *:before {
     box-sizing: border-box;
 }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-dark { color: 	#5c585a; }
+
 .navbar {
     display: flex;
     text-align: center;
@@ -19,8 +22,12 @@
 .font_baloo {
     font-family: 'Baloo Paaji 2', cursive;
 }
+.navbar-link-toggle {
+    cursor: pointer;
+}
 /*FOR SCREEN BIGGER THAN 1080px*/
 @media only screen and (min-width: 1080px){
+    .material-icons.toogle {display: none;}
     .navbar {
         padding: 14px;
         position: relative;
@@ -30,7 +37,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-end;
-        margin-left: 40%;
+        margin-left: 35%;
     }
     .navbar_link {
         /* top | right | bottom | left */
@@ -86,8 +93,21 @@
 
 /*FOR SCREENS SMALLERS THAN 1079px*/
 @media only screen and (max-width: 1079px){
-    .navbar_items {
-        display: flex;
+    /* top | right | bottom | left */
+    .navbar_items, .navbar {
         flex-flow: column wrap;
+        position: relative;
+        padding: 1%;
+    }
+    .navbar_items a {
+        text-decoration: none;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: #202020;
+        display: block;
+    }
+    .navbar_items {
+        display: none;
     }
 }

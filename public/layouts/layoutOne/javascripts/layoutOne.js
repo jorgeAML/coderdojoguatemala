@@ -2,7 +2,7 @@ $(document).ready( function () {
     var a = document.getElementsByClassName('nav');
     /*INSERT YOUR CLASSES HERE*/
     var classes = ['navbar', 'navbar_items', 'navbar_link'];
-    var linkClasses = ['link1', 'material-icons md-18 md-light', 'font_bungee link1', 'font_baloo link2'];
+    var linkClasses = ['link1', 'material-icons md-24 md-dark toogle', 'font_bungee link1', 'font_baloo link2'];
     var urlLinks = ['#', '#', '#', '#', '#'];
     var text = ['Coder Dojo Guatemala', 'Proyectos', 'Tutoriales', 'Blog', 'Donaciones'];
 
@@ -28,9 +28,7 @@ $(document).ready( function () {
         class: linkClasses[3]
     });
     
-    var fTag = $("<i>more_vert</i>").attr({
-        class: linkClasses[1]
-    });
+    var fTag = $("<span>swap_vertical_circle</span>").addClass(linkClasses[1]);
     
 
     
@@ -47,7 +45,7 @@ $(document).ready( function () {
     $(".navbar").find("div").eq(3).addClass(classes[2]).html(cTag);
     $(".navbar").find("div").eq(4).addClass(classes[2]).html(dTag);
     $(".navbar").find("div").eq(5).addClass(classes[2]).html(eTag);
-    $(".navbar").find("div").eq(6).addClass(classes[2]).html(fTag);
+    $(".navbar").find("div").eq(1).addClass(classes[2]).html(fTag);
         //textA.appendTo(aTag);
     //space
     new Vue({
@@ -58,7 +56,15 @@ $(document).ready( function () {
             t2: text[2],
             t3: text[3],
             t4: text[4],
-            k0: linkClasses[0]
+            k0: linkClasses[0],
+            k1: linkClasses[1]
         }
+    });
+
+    $('.toogle').click(function(){
+        $('.navbar_items').slideToggle(800);
+    });
+    $('.navbar_items').click(function(){
+        console.log('is workin well');
     });
 });

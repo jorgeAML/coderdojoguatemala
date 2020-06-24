@@ -1,0 +1,39 @@
+/*THE BANNER*/
+.banner-id {
+    background-color: brown;
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+.banner-id > img {
+    width: 100%;
+    height: auto;
+}
+/*FOR HIGH RESOLUTIONS SCREENS*/
+@media only screen and (min-width: 1080px) {
+    .banner-id {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .img-banner {
+        order: 1;
+        flex: 1 1 auto;
+        align-self: flex-start;
+    }
+}
+/*FOR MOBILES RESOLUTIONS*/
+@media only screen and (max-width: 1079px) {
+    .banner-id {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .img-banner {
+        order: 1;
+        flex: 1 1 auto;
+        align-self: flex-start;
+    }
+}

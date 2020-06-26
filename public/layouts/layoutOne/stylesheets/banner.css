@@ -1,4 +1,5 @@
 /*THE BANNER*/
+
 .banner-id {
     background-color: brown;
     height: 100%;
@@ -17,6 +18,11 @@
 }
 /*FOR HIGH RESOLUTIONS SCREENS*/
 @media only screen and (min-width: 1080px) {
+    :root {
+        --main-background-label: #f5f5f4;
+        --main-border-label-color: #4f4d48;
+    }
+    
     .banner-id {
         display: flex;
         flex-flow: column wrap;
@@ -28,6 +34,7 @@
         flex: 1 1 auto;
         align-self: flex-start;
     }
+    /*banner prefix start*/
     .banner-prefix {
         display: flex;
         flex-flow: column wrap;
@@ -52,31 +59,52 @@
         font-family: 'Baloo Paaji 2', cursive;
         
     }
+    /*banner prefix end*/
     .banner-labels {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: baseline;
+        /* top | right | bottom | left */
+        margin: -2% 45% 0 5%;
+        padding: 0 5% 0 5%;
+        text-align: center;
+        font-family: 'DM Mono', monospace;
+        cursor: pointer;
     }
     .banner-labels > div:nth-child(1) {
         order: 1;
         flex: 1 1 auto;
-        
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.5%;
+        margin-right: 2%;
     }
     .banner-labels > div:nth-child(2) {
         order: 2;
         flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.5%;
+        margin-right: 2%;
     }
     .banner-labels > div:nth-child(3) {
         order: 3;
         flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.5%;
+        margin-right: 2%;
     }
     .banner-labels > div:nth-child(4) {
         order: 4;
         flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.5%;
     }
 }
-/*FOR MOBILES RESOLUTIONS*/
+/*FOR MOBILES RESOLUTIONS BETTER FOR PADS*/
 @media only screen and (max-width: 1079px) {
     .banner-id {
         display: flex;
@@ -88,5 +116,92 @@
         order: 1;
         flex: 1 1 auto;
         align-self: flex-start;
+    }
+    .banner-prefix {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        /* top | right | bottom | left */
+        margin: -37% 55% 5% 7%;
+        
+    }
+    .banner-prefix > div:nth-child(1) {
+        text-align: right;
+        font-family: 'Baloo Paaji 2', cursive;
+    }
+    .banner-prefix > div:nth-child(2) {
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: 'DM Mono', monospace;
+    }
+    .banner-prefix > div:nth-child(3) {
+        text-align: center;
+        font-family: 'Baloo Paaji 2', cursive;
+    }
+    /*LABELS*/
+    .banner-labels {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: baseline;
+        /* top | right | bottom | left */
+        margin: -4% 5% 0 5%;
+        padding: 0 5% 0 5%;
+        text-align: center;
+        font-family: 'DM Mono', monospace;
+        cursor: pointer;
+    }
+    .banner-labels > div:nth-child(1) {
+        order: 1;
+        flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.1%;
+        margin-right: 2%;
+    }
+    .banner-labels > div:nth-child(2) {
+        order: 2;
+        flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.1%;
+        margin-right: 2%;
+    }
+    .banner-labels > div:nth-child(3) {
+        order: 3;
+        flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.1%;
+        margin-right: 2%;
+    }
+    .banner-labels > div:nth-child(4) {
+        order: 4;
+        flex: 1 1 auto;
+        background-color: #f5f5f4;
+        border: 2px dashed #4f4d48;
+        padding: 0.1%;
+    }
+}
+/*FOR MOBILES LESS THAN 800PX*/
+@media only screen and (max-width: 800px) {
+    .banner-prefix {
+        /* top | right | bottom | left */
+        margin: -37% 55% 5% 7%;  
+    }
+    .banner-prefix > div:nth-child(1) {
+        font-size: 0.5em;    
+    }
+    .banner-prefix > div:nth-child(2) {
+        font-size: 1.5rem;      
+    }
+    .banner-prefix > div:nth-child(3) {
+        font-size: 0.5em;
+    }
+    .banner-labels {
+        /* top | right | bottom | left */
+        margin: -10% 5% 0 5%;
+        padding: 0 5% 0 5%;
+        font-size: xx-small;
     }
 }

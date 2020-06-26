@@ -9,6 +9,12 @@
     width: 100%;
     height: auto;
 }
+.banner-prefix {
+    position: relative;
+}
+.banner-labels {
+    position: relative;
+}
 /*FOR HIGH RESOLUTIONS SCREENS*/
 @media only screen and (min-width: 1080px) {
     .banner-id {
@@ -21,6 +27,53 @@
         order: 1;
         flex: 1 1 auto;
         align-self: flex-start;
+    }
+    .banner-prefix {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        /* top | right | bottom | left */
+        margin: -35% 55% 5% 7%;
+        
+    }
+    .banner-prefix > div:nth-child(1) {
+        font-size: 1.5rem;
+        text-align: right;
+        font-family: 'Baloo Paaji 2', cursive;
+    }
+    .banner-prefix > div:nth-child(2) {
+        font-size: 6rem;
+        font-weight: bold;
+        font-family: 'DM Mono', monospace;
+    }
+    .banner-prefix > div:nth-child(3) {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Baloo Paaji 2', cursive;
+        
+    }
+    .banner-labels {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .banner-labels > div:nth-child(1) {
+        order: 1;
+        flex: 1 1 auto;
+        
+    }
+    .banner-labels > div:nth-child(2) {
+        order: 2;
+        flex: 1 1 auto;
+    }
+    .banner-labels > div:nth-child(3) {
+        order: 3;
+        flex: 1 1 auto;
+    }
+    .banner-labels > div:nth-child(4) {
+        order: 4;
+        flex: 1 1 auto;
     }
 }
 /*FOR MOBILES RESOLUTIONS*/

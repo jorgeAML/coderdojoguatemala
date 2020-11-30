@@ -12,8 +12,16 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-
-app.use(logger('dev'));
+//MORGAN
+const MORGANFORMATS = [
+  {combined: "combined"},
+    {common: "common"},
+      {dev: "dev"},
+        {short: "short"},
+          {tiny: "tiny"}
+]
+app.use(logger(MORGANFORMATS[2].dev));
+//MORGAN
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -39,3 +47,7 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+//RUN THE APP
+/**
+ * set DEBUG=coderdojoguatemala:* & npm start
+ */

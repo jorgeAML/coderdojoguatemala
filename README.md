@@ -22,20 +22,12 @@ Depending on your system if you are using Windows, Linux or Macos visit the core
 So after installed NodeJs Environment you might to create the route of the project, this is very simple, create a new folder whatever you want in your computer and then install Exprees there just like this:
   > C:\users\yourSystem\Documents\NodesProjects\myApplication
   
-## Installing Express
-I will explain the same like in [ExpressJS.com](https://expressjs.com/en/starter/installing.html) but remember you must to be in your route like in the step before:
-  > $ mkdir yournewapp <br>
-  > $ cd yournewapp <br>
-  > $ npm init <br>
-  > $ entry point(index.js) <br>
+## Installing (not necessary)
+After cloning the repository in your desire directory, go to your console and type:
+  > $ npm install <br>
 
-After this pint you should have a packaje.json for now make DEFAULT everything and the we gonna install express in the same directory of your application
-  > $ npm install express --save <br>
-  > $ npm install express --save jquery <br>
-
-We suggest to make the express Generator but you can clone this repository to the directory that you are using right now for this project, because we alredy made all the steps before, but we might know that you must to install express, nodeJs and jQuery in your computer
-
-If you have all the enviroments and module that we say before, just clone the repository and paste it in your directory.
+After this point you should have a packaje.json for now make DEFAULT everything and the we gonna install express in the same directory of your application
+The express modules like morgan, constantinople, jQuery has alredy in the node modules, you do not need to install again.
 
 ## Run the server using Node
 after you complete the steps to install the project you can run the server in your computer and modify, how to make this:

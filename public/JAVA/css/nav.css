@@ -1,41 +1,42 @@
 /*CSS STYLE FOR JAVA SECTION*/
 #nav-java {
     color: var(--color-navbar-text);
-    border-bottom: 3px solid var(--color-borders-nav);
+    border-bottom: 3px ridge var(--color-borders-nav);
     box-shadow: 0 1px 5px 0 var(--color-shadow);
     font-family: var(--font-family1);
     position: relative;
     font-size: x-large;
 }
-.navbar {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    padding: 1%;
-}
-.sub-btn:nth-child(1) {
-    order: 1;
-    flex: 5 1 auto;
-}
-.sub-btn:nth-child(2) {
-    order: 2;
-    flex: 1 1 auto;
-}
-.sub-btn:nth-child(3) {
-    order: 3;
-    flex: 1 1 auto;
-}
-.sub-btn:nth-child(4) {
-    order: 4;
-    flex: 1 1 auto;
-}
-.sub-btn:nth-child(5) {
-    order: 5;
-    flex: 1 1 auto;
-}
-.sub-btn:nth-child(6) {
-    order: 6;
-    flex: 1 1 auto;
+@media only screen and (min-device-width: 1200px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+        flex-flow: row nowrap;
+        align-items: center;
+        align-content: space-around;
+    }
+    .sub-btn:nth-child(1) {
+        order: 1;
+        flex: 5 1 auto;
+    }
+    .sub-btn:nth-child(2) {
+        order: 2;
+        flex: 1 1 auto;
+    }
+    .sub-btn:nth-child(3) {
+        order: 3;
+        flex: 1 1 auto;
+    }
+    .sub-btn:nth-child(4) {
+        order: 4;
+        flex: 1 1 auto;
+    }
+    .sub-btn:nth-child(5) {
+        order: 5;
+        flex: 1 1 auto;
+    }
+    .toggle {
+        display: none;
+    }
 }

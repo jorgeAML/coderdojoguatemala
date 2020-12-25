@@ -9,24 +9,27 @@ $(document).ready(function() {
         "class": "navbar",
         "html": "<div/><div/><div/><div/><div/><div/>"
     });
+   
     $('.navbar').find('div').eq(0).html("<a class='links-design' href='#'>{{title1}}</a>").attr({
         "class": "sub-btn"
     });
+    $('.navbar').find('div').eq(5).html("<i class='material-icons'>&#xE5D2;</i>").attr({
+        "class": "toggle"
+    });
+    //NAVBAR-ITEMS
     $('.navbar').find('div').eq(1).html("<a href='#'>{{title2}}</a>").attr({
-        "class": "sub-btn"
+        "class": "sub-btn slide"
     });
     $('.navbar').find('div').eq(2).html("<a href='#'>{{title3}}</a>").attr({
-        "class": "sub-btn"
+        "class": "sub-btn slide"
     });
     $('.navbar').find('div').eq(3).html("<a href='#'>{{title4}}</a>").attr({
-        "class": "sub-btn"
+        "class": "sub-btn slide"
     });
     $('.navbar').find('div').eq(4).html("<a href='#'>{{title5}}</a>").attr({
-        "class": "sub-btn"
+        "class": "sub-btn slide"
     });
-    $('.navbar').find('div').eq(5).html("<a>{{title6}}</a>").attr({
-        "class": "sub-btn"
-    });
+   
     /*VARIABLES FOR VUE*/
     var TITLES = ["Coder Dojo Guatemala", "Reglas", "Sobre el Dojo", "Acerca de", "Donar", "ToggleButton"];
     
@@ -45,4 +48,10 @@ $(document).ready(function() {
         }
     });
 
+    $(".toggle").click(function() {
+        $('.slide').slideToggle(800);
+    })
+    $('.navbar').click(function() {
+        console.log('slide toogle');
+    });
 });

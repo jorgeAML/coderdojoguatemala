@@ -1,6 +1,7 @@
 :root {
     --color-background-nav: #231d25;
     --color-background-body: #231d25;
+    --color-navbar-text: #ffffff;
 }
 body {
     margin:0;

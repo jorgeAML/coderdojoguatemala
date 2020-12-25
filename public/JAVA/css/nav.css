@@ -11,10 +11,11 @@
     .navbar {
         display: flex;
         justify-content: center;
-        padding: 1%;
         flex-flow: row nowrap;
         align-items: center;
         align-content: space-around;
+        width: 100%;
+        padding: 1%;
     }
     .sub-btn:nth-child(1) {
         order: 1;
@@ -38,5 +39,12 @@
     }
     .toggle {
         display: none;
+    }
+    .navbar a {
+        transition: color 5s cubic-bezier(0.11, 0.7, 0, 1);
+        overflow: hidden;
+    }
+    .navbar a:hover {
+        border-bottom: 3px solid var(--color-navbar-hover);
     }
 }

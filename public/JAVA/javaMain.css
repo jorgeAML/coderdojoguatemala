@@ -2,6 +2,7 @@
     --color-background-nav: #231d25;
     --color-background-body: #231d25;
     --color-navbar-text: #ffffff;
+    --color-navbar-hover: #7c43bd;
     --color-borders-nav: #40214a;
     --color-shadow: #000000;
     --font-family1: 'Squada One', cursive;
@@ -13,8 +14,10 @@ body {
     height: 100%;
     overflow: auto;
     background-color: var(--color-background-body);
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
     color: var(--color-navbar-text);
+    
 }

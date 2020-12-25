@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/jorgeAML/coderdojoguatemala/issues"
   },
-  "homepage": "https://github.com/jorgeAML/coderdojoguatemala#readme"
+  "homepage": "https://github.com/jorgeAML/coderdojoguatemala#readme",
+  "devDependencies": {
+    "clean-css": "^4.2.3"
+  }
 }

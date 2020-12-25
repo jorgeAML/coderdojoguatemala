@@ -32,7 +32,7 @@ The express modules like morgan, constantinople, jQuery has alredy in the node m
 ## Run the server using Node
 after you complete the steps to install the project you can run the server in your computer and modify, how to make this:
   > being in your directory <br>
-  > \myapplication set DEBUG=myapplication:* & npm start <br>
+  > \coderdojoguatemala> set DEBUG=coderdojoguatemala:* & npm start <br>
   > The server is listening on port 1703 <br>
   
 then go and check in your browser and type localhost:1703 

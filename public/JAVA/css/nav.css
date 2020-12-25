@@ -1,6 +1,11 @@
 /*CSS STYLE FOR JAVA SECTION*/
 #nav-java {
     color: var(--color-navbar-text);
+    border-bottom: 3px solid var(--color-borders-nav);
+    box-shadow: 0 1px 5px 0 var(--color-shadow);
+    font-family: var(--font-family1);
+    position: relative;
+    font-size: x-large;
 }
 .navbar {
     display: flex;
@@ -8,7 +13,7 @@
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    padding: 2%;
+    padding: 1%;
 }
 .sub-btn:nth-child(1) {
     order: 1;

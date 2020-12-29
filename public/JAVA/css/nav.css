@@ -47,4 +47,8 @@
     .navbar a:hover {
         border-bottom: 3px solid var(--color-navbar-hover);
     }
+    #rec1 {
+        position: absolute;
+        margin-top: -15px;
+    }
 }

@@ -1,15 +1,10 @@
 /**HERE WILL BE ALL SCRIPTS FOR THE NAV IN JAVA */
 $(document).ready(function() {
-    var links = [
-        { ref0: '#'}
-    ];
-
     $("<div/>", {
         "appendTo": "#nav-java",
         "class": "navbar",
         "html": "<div/><div/><div/><div/><div/><div/>"
     });
-   
     $('.navbar').find('div').eq(0).html("<a class='links-design' href='#'>{{title1}}</a>").attr({
         "class": "sub-btn"
     });
@@ -29,7 +24,6 @@ $(document).ready(function() {
     $('.navbar').find('div').eq(4).html("<a href='#'>{{title5}}</a>").attr({
         "class": "sub-btn slide"
     });
-   
     /*VARIABLES FOR VUE*/
     var TITLES = ["Coder Dojo Guatemala", "Reglas", "Sobre el Dojo", "Acerca de", "Donar", "ToggleButton"];
     

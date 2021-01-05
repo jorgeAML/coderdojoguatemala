@@ -5,7 +5,7 @@ $(document).ready(function() {
         "class": "navbar",
         "html": "<div/><div/><div/><div/><div/><div/>"
     });
-    $('.navbar').find('div').eq(0).html("<a class='links-design' href='#'>{{title1}}</a>").attr({
+    $('.navbar').find('div').eq(0).html("<a class='links-design' href='{{l0}}'>{{title1}}</a>").attr({
         "class": "sub-btn"
     });
     $('.navbar').find('div').eq(5).html("<i class='material-icons'>&#xE5D2;</i>").attr({
@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
     /*VARIABLES FOR VUE*/
     var TITLES = ["Coder Dojo Guatemala", "Reglas", "Sobre el Dojo", "Acerca de", "Donar", "ToggleButton"];
-    
+    var links = ["arweave.org"];
     var YOURFEAR = ["links-design"];
     /**VUE IN ACTIONS */
     new Vue ({
@@ -39,6 +39,7 @@ $(document).ready(function() {
             title5: TITLES[4],
             title6: TITLES[5],
             YF0: YOURFEAR[0],
+            l0: links[0]
         }
     });
 

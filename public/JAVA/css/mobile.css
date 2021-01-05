@@ -34,5 +34,8 @@
         order: 6;
         display: none;
     }
+    #rec1 {
+        display: none;
+    }
 
 }

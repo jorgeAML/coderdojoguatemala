@@ -14,7 +14,6 @@
         flex-flow: row nowrap;
         align-items: center;
         align-content: space-around;
-        width: 100%;
         padding: 1%;
     }
     .sub-btn:nth-child(1) {
@@ -50,5 +49,6 @@
     #rec1 {
         position: absolute;
         margin-top: -15px;
+        width: 100px;
     }
 }

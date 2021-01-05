@@ -1,0 +1,27 @@
+/*DESKTOP*/
+@media only screen and (min-device-width: 1200px) {
+    .container-divided {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    .cd1 {
+        order: 1;
+        flex: 1 1 auto;
+    }
+    .cd2 {
+        order: 2;
+        flex: 1 1 auto;
+    }
+    .info-java {
+        margin: 5%;
+        text-align: center;
+    }
+    .design-info-java {
+        background-image: linear-gradient(-150deg,#231d25,#231d25,#40214a);
+        position: relative;
+        border-radius: 5px;
+        border: 3px solid #40214a;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+}

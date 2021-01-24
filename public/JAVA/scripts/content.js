@@ -21,7 +21,9 @@ $(document).ready(function() {
     $(".info-java").find("div").eq(0).attr({
         "class": "design-info-java"
     });
-    $("<h1>", { "appendTo": ".design-info-java", "class": "title", html: TITLE})
+    $("<h1/>", { "appendTo": ".design-info-java", "class": "title", html: TITLE});
+    $("<p/>", { "appendTo": ".design-info-java", "class": "idp01", html: "{{ph1}}. {{ph2}}. {{ph3}}. {{ph4}}. {{ph5}}. {{ph6}}. {{ph7}}. {{ph8}}"});
+    $("<p/>", { "appendTo": ".design-info-java", "class": "idit01", html: "{{introT1}}. {{introT2}}"});
     //CHAPTERS 1 AND 2
     $("<div/>", {
         "appendTo": ".cd2",
@@ -60,10 +62,20 @@ $(document).ready(function() {
     $("<p/>", { "appendTo": ".id101", html: "{{CPT4}}" });
     //VARIABLES
     var imageTest1 = ["images/flame-delete-confirmation.png", "images/flame-space-adventures.png"];
+    var paragrap = ["Java es un lenguaje de programación basado orientación a objetos, basado a clases diseñado para tener poca implementación de dependencias como sea posible", 
+            "Es un lenguaje de programación de proposito general para que los desarrolladores de aplicaciones lo escriban una vez, correrlo en donde sea (WORA)", 
+            "Con el significado de que Java debe ser compilado para poder funcionar en todas las plataformas que soporten Java sin la necesidad de ser recompilado", 
+        "Las aplicaciones Java son tipicamente compiladas a código-bit las cuales pueden funcionar en cualquier maquina virtual Java (JVM), independientement de la arquitectura subyacente de la maquina",
+        "La sintaxis de Java es similar al lenguaje de programación C y C++ pero quizás a bajo nivel comparado con los dos mencionados", 
+        "Las compilaciones en Java provee capabilidades dinámicas, que estás tipicamente no son habilitadas en los lenguajes de programación tradicionales", 
+        "Así como en el 2019, Java fue uno de los lenguajes de programación más populares en base a las estadísticas de Github pero no ganandole la posición a JavaScript", 
+        "Particularmente para servidores-cliente para sitios web, con un reporte de 9 millones de desarrolladores."];
     var chapter1 = ["Introducción", "Aprende a crear programas utilizando el lenguaje de programación JAVA, el poder de la mente es increíble."];
     var chapter2 = ["Programación Elemental", "Para poder entender temas complejos una buena base sobre que es la programación será de bastante ayuda."];
     var chapter3 = ["Selecciones", "Implementa metodos para hacer controles de selección, usando expresiones boleanas, if-else y metodos switch."];
     var chapter4 = ["Funciones Matemáticas", "Resuelve problemas matemáticos, aprende sobre los carácteres ASCII y sus códigos únicos y el método String."];
+    var introText = ["Aprende sobre lo básico de Java y como funciona, describe las relaciones entre Java y la Web (World Wide Web), aprende sobre el significado de Java, API, JDK e IDE.",
+        "Escribe un simple programa en Java, aprende a compilar desde la consola, explica lo básico en la sintaxis de un programa."];
     new Vue({
         el: ".chapters-java",
         data: {
@@ -88,6 +100,31 @@ $(document).ready(function() {
             CP4: chapter4[0],
             CPT4: chapter4[1]
         }
+    });
+    new Vue({
+        el: ".design-info-java",
+        data: {
+            ph1: paragrap[0],
+            ph2: paragrap[1],
+            ph3: paragrap[2],
+            ph4: paragrap[3],
+            ph5: paragrap[4],
+            ph6: paragrap[5],
+            ph7: paragrap[6],
+            ph8: paragrap[7],
+            introT1: introText[0],
+            introT2: introText[1]
+        }
+    });
+    //FUNCTION FOR CONTENT SHOW THE INTRODUCTION CHAPTER
+    $(".id99").click(function(event){
+        $(".idp01").fadeOut("slow");
+        $(".idit01").delay(600).fadeIn("slow");
+    });
+    //FUNCTION RETURN THE CONTENT OF JAVA
+    $(".design-info-java").click(function(event){
+        $(".idit01").fadeOut("slow");
+        $(".idp01").delay(600).fadeIn("slow");
     });
     console.log(chapter1[1].length);
     console.log(chapter2[1].length);

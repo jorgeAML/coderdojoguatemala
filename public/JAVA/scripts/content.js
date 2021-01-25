@@ -24,6 +24,10 @@ $(document).ready(function() {
     $("<h1/>", { "appendTo": ".design-info-java", "class": "title", html: TITLE});
     $("<p/>", { "appendTo": ".design-info-java", "class": "idp01", html: "{{ph1}}. {{ph2}}. {{ph3}}. {{ph4}}. {{ph5}}. {{ph6}}. {{ph7}}. {{ph8}}"});
     $("<p/>", { "appendTo": ".design-info-java", "class": "idit01", html: "{{introT1}}. {{introT2}}"});
+    $("<ol/>", { "appendTo": ".design-info-java", "class": "idit02", html: "<h3/><li/><li/>"});
+    $(".idit02").find("h3").eq(0).html("{{IC1}}")
+    $(".idit02").find("li").eq(0).html("{{IC2}}");
+    $(".idit02").find("li").eq(1).html("{{IC3}}");
     //CHAPTERS 1 AND 2
     $("<div/>", {
         "appendTo": ".cd2",
@@ -76,6 +80,8 @@ $(document).ready(function() {
     var chapter4 = ["Funciones Matemáticas", "Resuelve problemas matemáticos, aprende sobre los carácteres ASCII y sus códigos únicos y el método String."];
     var introText = ["Aprende sobre lo básico de Java y como funciona, describe las relaciones entre Java y la Web (World Wide Web), aprende sobre el significado de Java, API, JDK e IDE.",
         "Escribe un simple programa en Java, aprende a compilar desde la consola, explica lo básico en la sintaxis de un programa."];
+    var chapter2Text = ["Objetivos:","Escribe programas Java para el desarrollo de calculos simples.",
+        "Aprende a obtener información desde la consola usando la clase Scanner."];
     new Vue({
         el: ".chapters-java",
         data: {
@@ -113,19 +119,34 @@ $(document).ready(function() {
             ph7: paragrap[6],
             ph8: paragrap[7],
             introT1: introText[0],
-            introT2: introText[1]
+            introT2: introText[1],
+
+            IC1: chapter2Text[0],
+            IC2: chapter2Text[1],
+            IC3: chapter2Text[2]
         }
     });
     //FUNCTION FOR CONTENT SHOW THE INTRODUCTION CHAPTER
-    $(".id99").click(function(event){
-        $(".idp01").fadeOut("slow");
+    $(".id99").mouseover(function(event){
+        $(".idp01, .idit02").fadeOut("slow");
         $(".idit01").delay(600).fadeIn("slow");
     });
     //FUNCTION RETURN THE CONTENT OF JAVA
-    $(".design-info-java").click(function(event){
+    $(".design-info-java").mouseover(function(event){
         $(".idit01").fadeOut("slow");
         $(".idp01").delay(600).fadeIn("slow");
     });
+    //Elemntary Programming
+    $(".id98").mouseover(function(event){
+        $(".idp01, .idit01").fadeOut("slow");
+        $(".idit02").delay(600).fadeIn("slow");
+    });
+    //LEAVE ELEMENTARY PROGRAMMING
+    $(".design-info-java").mouseover(function(event){
+        $(".idit02").fadeOut("slow");
+        $(".idp01").delay(600).fadeIn("slow");
+    });
+
     console.log(chapter1[1].length);
     console.log(chapter2[1].length);
     console.log(chapter3[1].length);console.log(chapter4[1].length);

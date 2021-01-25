@@ -87,7 +87,7 @@
         text-align: justify;
         border-top: 3px dashed var(--borders-dark);
     }
-    .idit01 {
+    .idit01, .idit02 {
         display: none;
         font-family: var(--font-family2);
         color: var(--color-navbar-text);

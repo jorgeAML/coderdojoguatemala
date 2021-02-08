@@ -88,7 +88,7 @@ $(document).ready(function () {
     //IMAGES FOR FOOTER
     var f4 = document.getElementsByClassName('ordenf1');
     $(f4).find('img').eq(0).addClass('footer-img').attr({
-        src: "https://s550sas.storage.yandex.net/rdisk/206f7de2ad499d3cfdc695c5901f87f501147dd649bf908a00e5b0448ec7edad/6020f821/MENMWvNs6buenabbExQjB3vyCvdcoLWXoYthAqjB7YWFZrd1YIG9Oo51z2pHif5CkowGiSRgoAuNli7cTgAQ8w==?uid=0&filename=logo_coderDojo.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&fsize=35089&hid=27c8433a9f41142bfbf693205e0c3451&media_type=image&tknv=v2&etag=2067d6ac1e6dc13367ca5f57b3482717&rtoken=0UhDuoOBcs9u&force_default=no&ycrid=na-910c191e3f4a1915483a85a8b201a878-downloader19f&ts=5bacf12258a40&s=4ea63005c0496ab2458021e9966bfb4c897c0c5ed2d31c67b8020e634226203c&pb=U2FsdGVkX1_IgwRUkdarfPyvTNtZ9xqFwfinn0MZNZWAJM4OH-a4rhLHkgQBYOTRHDMsKw1bn778Z1jM2WSrCsFpOGwa-84Q7iC7dc_QSL0",
+        src: "https://raw.githubusercontent.com/jorgeAML/coderdojoguatemala/master/public/images/logo_coderDojo.png",
         alt: "logo of Coder Dojo Guatemala"
     });
 

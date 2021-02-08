@@ -26,7 +26,7 @@ $(document).ready(function () {
         rel: urlDefault
     });
 
-    var catalogo = ['Neo4j', 'Redis', 'Robotica', 'JavaScript', 'Making a Website', 'CSS', 'Nodes'];
+    var catalogo = ['Neo4j', 'Redis', 'Alexa', 'JavaScript', 'Making a Website', 'CSS', 'Nodes'];
     var f2 = document.getElementsByClassName("footer-a2");
 
     $(f2).find("a").eq(0).html(catalogo[0]).addClass("af6").attr({
@@ -58,7 +58,7 @@ $(document).ready(function () {
         rel: urlDefault
     });
 
-    var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'Airweave'];
+    var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'ARweave'];
     var f3 = document.getElementsByClassName('footer-a3');
 
     $(f3).find("a").eq(0).html(social[0]).addClass("af13").attr({

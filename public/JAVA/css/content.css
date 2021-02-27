@@ -19,11 +19,11 @@
         margin: 3%;
     }
     .design-info-java {
-        background-image: var(--gradient-universal);
+        background-image: var(--gradient-hunt-1);
         position: relative;
         border-radius: 15px;
-        border: 3px solid var(--color-borders-nav);
-        box-shadow: var(--shadow-box-universal);
+        border: 3px solid var(--color-borders-containers);
+        /*box-shadow: 2px 2px 5px var(--color-shadow);*/
     }
     .title {
         font-size: 8rem;
@@ -52,12 +52,12 @@
         opacity: 0.9;
         border-bottom: 3px dashed var(--borders-dark);
         background-color: var(--background-color-images);
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
     .chap1 {
-        border: 3px solid var(--background-color-images);
-        border-radius: 15px;
+        border: 3px solid var(--color-borders-containers);
+        border-radius: 10px;
         margin: 1%;
         /*background-image: linear-gradient(-150deg,#231d25,#231d25,#40214a);*/
     }
@@ -65,32 +65,37 @@
         background-image: var(--gradient-hunt-1);
     }
     .id98 {
-        background-image: var(--gradient-hunt-2);
+        background-image: var(--gradient-hunt-1);
     }
     .id100 {
-        background-image: var(--gradient-hunt-5);
+        background-image: var(--gradient-hunt-1);
         flex-basis: 50%;
     }
     .id101 {
-        background-image: var(--gradient-hunt-4);
+        background-image: var(--gradient-hunt-1);
         flex-basis: 50%;
     }
-    .chap1 > h3, .chap1 p {
+    .chap1 > p {
+        color: var(--color-navbar-text-2);
+        font-family: var(--font-family3);
+        margin: 4%;
+    }
+    .chap1 > h3 {
         color: var(--color-navbar-text);
-        font-family: var(--font-family2);
+        font-family: var(--font-family1);
         margin: 4%;
     }
     .idp01 {
-        font-family: var(--font-family2);
-        color: var(--color-navbar-text);
+        font-family: var(--font-family3);
+        color: var(--color-navbar-text-2);
         margin: 4%;
         text-align: justify;
         border-top: 3px dashed var(--borders-dark);
     }
     .idit01, .idit02 {
         display: none;
-        font-family: var(--font-family2);
-        color: var(--color-navbar-text);
+        font-family: var(--font-family3);
+        color: var(--color-navbar-text-2);
         margin: 4%;
         text-align: justify;
     }

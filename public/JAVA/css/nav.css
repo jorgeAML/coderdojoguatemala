@@ -4,8 +4,10 @@
     border-bottom: 3px ridge var(--color-borders-nav);
     box-shadow: 0 1px 5px 0 var(--color-shadow);
     font-family: var(--font-family1);
-    position: relative;
     font-size: x-large;
+    overflow: hidden;
+    background-color: var(--color-background-nav);
+    z-index: 1;
 }
 @media only screen and (min-device-width: 1200px) {
     .navbar {
@@ -15,6 +17,7 @@
         align-items: center;
         align-content: space-around;
         padding: 1%;
+        position: relative;
     }
     .sub-btn:nth-child(1) {
         order: 1;
@@ -50,5 +53,10 @@
         position: absolute;
         margin-top: -15px;
         width: 100px;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 }

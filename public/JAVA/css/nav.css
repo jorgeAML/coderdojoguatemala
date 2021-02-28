@@ -45,6 +45,7 @@
     .navbar a {
         transition: color 5s cubic-bezier(0.11, 0.7, 0, 1);
         overflow: hidden;
+        color: var(--color-navbar-text)
     }
     .navbar a:hover {
         border-bottom: 3px solid var(--color-navbar-hover);

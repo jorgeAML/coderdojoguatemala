@@ -31,6 +31,6 @@ body {
 }
 a {
     text-decoration: none;
-    color: var(--color-navbar-text);
+    /*color: var(--color-navbar-text);*/
     
 }

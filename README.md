@@ -5,7 +5,7 @@ Right now we are working on the development of the website, its design and its t
 
 ### See the project in onion link
 Right now we are deploying and using the TOR service, so if you want to see how the project goes, please visit the onion link: 
-  > http://jbrf544fwxr53rjmzsp67zz3ajt5j4j6bvfwhnn2cqwziguwvqkpniqd.onion
+  > jbrf544fwxr53rjmzsp67zz3ajt5j4j6bvfwhnn2cqwziguwvqkpniqd.onion
   
 Just a reminder: install and use [TOR](https://www.torproject.org/ "Browse Privately. Explore Freely") to see the project, you can not accesed via the normal web like google chrome or Edge.
   

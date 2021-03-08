@@ -4,6 +4,7 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
+        margin: 3% 3% 2% 3%;
     }
     .container-cool-1 {
         display: flex;
@@ -12,7 +13,7 @@
         text-align: center;
     }
     .container-cool-2 {
-        display: flex;
+        display: inline-flex;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: flex-start;
@@ -26,5 +27,54 @@
         font-family: var(--font-family2);
         color: var(--color-light);
         font-size: var(--font-size-large);
+    }
+    /*RULES FLEX*/
+    .cool-2-child-1 {
+        order: 1;
+        flex: 2 2 10%;
+    }
+    .cool-2-child-2 {
+        order: 2;
+        flex: 2 2 10%;
+    }
+    .cool-2-child-3 {
+        order: 3;
+        flex: 2 2 10%;
+    }
+    /*ANIMATION*/
+    .cool-2-child-1, .cool-2-child-2, .cool-2-child-3 {
+        transition-duration: var(--duration);
+    }
+    .cool-2-child-1:hover, .cool-2-child-2:hover, .cool-2-child-3:hover {
+        box-shadow: var(--shadows);
+	    transform: var(--transform);
+    }
+    /*IMAGES ARRANGE*/
+    .cool-2-child-1 > img, .cool-2-child-2 > img, .cool-2-child-3 > img {
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        border-bottom: var(--bottom2);
+        height: 200px;
+        border-top-left-radius: var(--border-top-left-radius);
+        border-top-right-radius: var(--border-top-right-radius);
+    } 
+    /*CONTAINERS DESIGN*/
+    .cool-2-child-1, .cool-2-child-2, .cool-2-child-3 {
+        border: var(--borders);
+        border-radius: var(--border-radius);
+        background-image: var(--background-image);
+        box-shadow: var(--box-shadow);
+        margin: 1% 1%;
+    }
+    .cool-2-child-1 > h2, .cool-2-child-2 > h2, .cool-2-child-3 > h2 {
+        font-family: var(--font-family1);
+        color: var(--color-light);
+        text-align: center;
+    }
+    .cool-2-child-1 > p, .cool-2-child-2 > p, .cool-2-child-3 > p {
+        font-family: var(--font-family2);
+        color: var(--color-light);
+        padding: 3% 3% 3% 3%;
     }
 }

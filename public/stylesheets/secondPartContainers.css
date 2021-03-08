@@ -149,6 +149,10 @@
         width: 100%;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        object-fit: cover;
+        position: relative;
+        border-bottom: var(--bottom2);
+        height: 250px;
     }
     .h1_sp {
         font-size: 3em;
@@ -163,9 +167,6 @@
         margin-left: 5%;
         margin-right: 25%;
         margin-top: -13px;
-    }
-    .adjust_img {
-        margin-top: 17%;
     }
     .in_box {
         margin: 4% 4%;

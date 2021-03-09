@@ -59,8 +59,8 @@ $(document).ready(function () {
     $(".footer-child-4").find("a").eq(0).html(SOCIAL[0]).attr({"target": "_blank", "href": "https://www.facebook.com/coderdojomixcoguatemala"});
     $(".footer-child-4").find("a").eq(1).html(SOCIAL[1]).attr({"target": "_blank", "href": "https://discord.gg/bF4HhJaT2Q"});
     $(".footer-child-4").find("a").eq(2).html(SOCIAL[2]).attr({"target": "_blank", "href": "https://twitter.com/AmlLabs"});
-    $(".footer-child-4").find("a").eq(3).html(SOCIAL[3]).attr({"target": "_blank", "href": "https://www.arweave.org/"});
-    $(".footer-child-4").find("a").eq(4).html(SOCIAL[4]).attr({"target": "_blank", "href": "https://www.youtube.com/channel/UCBVKNC8fVQQcTOTi-kq1wYw"});
+    $(".footer-child-4").find("a").eq(3).html(SOCIAL[3]).attr({"target": "_blank", "href": "https://www.youtube.com/channel/UCBVKNC8fVQQcTOTi-kq1wYw"});
+    $(".footer-child-4").find("a").eq(4).html(SOCIAL[4]).attr({"target": "_blank", "href": "https://www.arweave.org/"});
     $(".footer-child-4").find("a").eq(5).html(SOCIAL[5]).attr({"target": "_blank", "href": "https://www.twitch.tv/jorgeaml1"});
     //pie de pagina
     const PIEDEPAGINA = "2021 &#169 Coder Dojo Guatemala creado por AML Productions";

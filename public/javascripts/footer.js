@@ -58,27 +58,31 @@ $(document).ready(function () {
         rel: urlDefault
     });
 
-    var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'ARweave'];
+    var social = ['Facebook', 'Discord', 'Twitter', 'Youtube', 'ARweave', 'Twitch'];
     var f3 = document.getElementsByClassName('footer-a3');
 
     $(f3).find("a").eq(0).html(social[0]).addClass("af13").attr({
-        href: "#",
+        href: "https://www.facebook.com/coderdojomixcoguatemala",
         rel: urlDefault
     });
     $(f3).find("a").eq(1).html(social[1]).addClass("af14").attr({
-        href: "#",
+        href: "https://discord.gg/bF4HhJaT2Q",
         rel: urlDefault
     });
     $(f3).find("a").eq(2).html(social[2]).addClass("af15").attr({
-        href: "#",
+        href: "https://twitter.com/AmlLabs",
         rel: urlDefault
     });
     $(f3).find("a").eq(3).html(social[3]).addClass("af16").attr({
-        href: "#",
+        href: "https://www.youtube.com/channel/UCBVKNC8fVQQcTOTi-kq1wYw",
         rel: urlDefault
     });
     $(f3).find("a").eq(4).html(social[4]).addClass("af17").attr({
-        href: "#",
+        href: "https://www.arweave.org/",
+        rel: urlDefault
+    });
+    $(f3).find("a").eq(5).html(social[5]).addClass("af17").attr({
+        href: "https://www.twitch.tv/jorgeaml1",
         rel: urlDefault
     });
 
@@ -88,7 +92,7 @@ $(document).ready(function () {
     //IMAGES FOR FOOTER
     var f4 = document.getElementsByClassName('ordenf1');
     $(f4).find('img').eq(0).addClass('footer-img').attr({
-        src: "https://raw.githubusercontent.com/jorgeAML/coderdojoguatemala/master/public/images/logo_coderDojo.png",
+        src: "./images/logoSample.png",
         alt: "logo of Coder Dojo Guatemala"
     });
 

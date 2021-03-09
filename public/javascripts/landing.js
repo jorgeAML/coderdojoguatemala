@@ -50,5 +50,17 @@ $(document).ready(function() {
     $(".cool-2-child-3").find("p").html(PARRAFOCHILD3).attr({"class":"p-child-cool"});
 
     //Mas informacion sobre el dojo
-    
+    const TITULOCHILD3_1 = "Conoce personas espectaculares";
+    const PARRAFOCHILD3_1 = "La atmosfera en CoderDojo es muy abierta asi que facilmente puedes conocer personas con intereses similares.";
+    $("<div/>", {
+        "appendTo": ".container-cool-column",
+        "class": "container-cool-3"
+    });
+    $("<div/>", {
+        "appendTo": ".container-cool-3",
+        "class": "cool-3-child-1",
+        html: "<h2/><p/>"
+    });
+    $(".cool-3-child-1").find("h2").html(TITULOCHILD3_1).attr({"class": "t-child-cool"});
+    $(".cool-3-child-1").find("p").html(PARRAFOCHILD3_1).attr({"class": "p-child-cool"});
 })

@@ -48,4 +48,7 @@ $(document).ready(function() {
     $(".cool-2-child-3").find("img").attr({"src": "./images/comunidad.jpg"});
     $(".cool-2-child-3").find("h2").html(TITULOCHILD3).attr({"class": "t-child-cool"});
     $(".cool-2-child-3").find("p").html(PARRAFOCHILD3).attr({"class":"p-child-cool"});
+
+    //Mas informacion sobre el dojo
+    
 })

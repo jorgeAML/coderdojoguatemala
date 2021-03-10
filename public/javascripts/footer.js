@@ -97,7 +97,7 @@ $(document).ready(function () {
     });
 
     //THE LAST PART OF THE FOOTER
-    var hr = document.getElementsByClassName("footer-container");
+    var hr = document.getElementsByClassName("footer-container");    
     var createHr = $("<hr></hr>");
     var pieDePagina = $("<p>2021 &#169 Coder Dojo Guatemala por AML Productions</p>")
 

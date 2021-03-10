@@ -113,4 +113,5 @@ $(document).ready(function() {
     });
     $(".cool-4-child-3").find("h2").html(TITULOCHILD4_3).attr({"class": "t-child-cool"});
     $(".cool-4-child-3").find("p").html(PARRAFOCHILD4_3).attr({"class": "p-child-cool"});
+
 })

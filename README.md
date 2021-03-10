@@ -5,7 +5,7 @@ Right now we are working on the development of the website, its design and its t
 
 ### See the project in onion link
 Right now we are deploying and using the TOR service, so if you want to see how the project goes, please visit the onion link: 
-  > 👨‍💻 The server is not running 😰 right now, because we are studiyng or focus in another dimension. if you want to see the progress 🛠!!
+  > 👨‍💻 The server is running right now, if you want to see the progress 🛠!!
   >
   > jbrf544fwxr53rjmzsp67zz3ajt5j4j6bvfwhnn2cqwziguwvqkpniqd.onion
   

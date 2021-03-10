@@ -52,6 +52,10 @@ $(document).ready(function() {
     //Mas informacion sobre el dojo
     const TITULOCHILD3_1 = "Conoce personas espectaculares";
     const PARRAFOCHILD3_1 = "La atmosfera en CoderDojo es muy abierta asi que facilmente puedes conocer personas con intereses similares.";
+    const TITULOCHILD3_2 = "Programando";
+    const PARRAFOCHILD3_2 = "En Coder Dojo puedes aprender de todo sobre programación. Algo asi como sitios web, juegos, apps o incluso robots. Aprende con Arduino para crear tus propios dispositivos.";
+    const TITULOCHILD3_3 = "Creatividad";
+    const PARRAFOCHILD3_3 = "¿Estas en busca en expandir tu imaginación e ideas únicas? ¡Unete a Coder Dojo y expresa tu creatividad en proyectos geniales de programación!";
     $("<div/>", {
         "appendTo": ".container-cool-column",
         "class": "container-cool-3"
@@ -63,4 +67,50 @@ $(document).ready(function() {
     });
     $(".cool-3-child-1").find("h2").html(TITULOCHILD3_1).attr({"class": "t-child-cool"});
     $(".cool-3-child-1").find("p").html(PARRAFOCHILD3_1).attr({"class": "p-child-cool"});
+    $("<div/>", {
+        "appendTo": ".container-cool-3",
+        "class": "cool-3-child-2",
+        html: "<h2/><p/>"
+    });
+    $(".cool-3-child-2").find("h2").html(TITULOCHILD3_2).attr({"class": "t-child-cool"});
+    $(".cool-3-child-2").find("p").html(PARRAFOCHILD3_2).attr({"class": "p-child-cool"});
+    $("<div/>", {
+        "appendTo": ".container-cool-3",
+        "class": "cool-3-child-3",
+        html: "<h2/><p/>"
+    });
+    $(".cool-3-child-3").find("h2").html(TITULOCHILD3_3).attr({"class": "t-child-cool"});
+    $(".cool-3-child-3").find("p").html(PARRAFOCHILD3_3).attr({"class": "p-child-cool"});
+    //Mas informacion sobre el dojo 
+    const TITULOCHILD4_1 = "Demuestra y explica lo que sabes";
+    const TITULOCHILD4_2 = "¿Trabado en algún proyecto?";
+    const TITULOCHILD4_3 = "¡Recuerda ser buena onda!";
+    const PARRAFOCHILD4_1 = "Presenta tu proyecto a tu compañero luego de una sesión del Dojo para que juntos puedan aprender.";
+    const PARRAFOCHILD4_2 = "¿Estás trabajando en algún proyecto y te quedaste trabado? Ven a Coder Dojo y de seguro encontrarás personas que quieran ayudarte.";
+    const PARRAFOCHILD4_3 = "La única regla de Coder Dojo es, asegurarse que la experiencia en aprender a programar juntos sea increíblemente fantástica fenomenal.";
+    $("<div/>", {
+        "appendTo": ".container-cool-column",
+        "class": "container-cool-4"
+    });
+    $("<div/>", {
+        "appendTo": ".container-cool-4",
+        "class": "cool-4-child-1",
+        html: "<h2/><p/>"
+    });
+    $(".cool-4-child-1").find("h2").html(TITULOCHILD4_1).attr({"class": "t-child-cool"});
+    $(".cool-4-child-1").find("p").html(PARRAFOCHILD4_1).attr({"class": "p-child-cool"});
+    $("<div/>", {
+        "appendTo": ".container-cool-4",
+        "class": "cool-4-child-2",
+        html: "<h2/><p/>"
+    });
+    $(".cool-4-child-2").find("h2").html(TITULOCHILD4_2).attr({"class": "t-child-cool"});
+    $(".cool-4-child-2").find("p").html(PARRAFOCHILD4_2).attr({"class": "p-child-cool"});
+    $("<div/>", {
+        "appendTo": ".container-cool-4",
+        "class": "cool-4-child-3",
+        html: "<h2/><p/>"
+    });
+    $(".cool-4-child-3").find("h2").html(TITULOCHILD4_3).attr({"class": "t-child-cool"});
+    $(".cool-4-child-3").find("p").html(PARRAFOCHILD4_3).attr({"class": "p-child-cool"});
 })

@@ -136,7 +136,8 @@ $(document).ready(function() {
     });
     $(".cool-twitter-child-1").find("a").eq(0).html("Siguenos como AmlLabs").attr({
         "class": "twitter-follow-button",
-        "href": "https://twitter.com/AmlLabs?ref_src=twsrc%5Etfw"
+        "href": "https://twitter.com/AmlLabs?ref_src=twsrc%5Etfw",
+        "data-size": "large"
     });
     $(".cool-twitter-child-1").find("a").eq(1).html("Tweets by AmlLabs").attr({
         "class": "twitter-timeline",

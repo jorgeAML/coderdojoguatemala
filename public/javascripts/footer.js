@@ -81,7 +81,7 @@ $(document).ready(function () {
         href: "https://www.arweave.org/",
         rel: urlDefault
     });
-    $(f3).find("a").eq(5).html(social[5]).addClass("af17").attr({
+    $(f3).find("a").eq(5).html(social[5]).addClass("af18").attr({
         href: "https://www.twitch.tv/jorgeaml1",
         rel: urlDefault
     });

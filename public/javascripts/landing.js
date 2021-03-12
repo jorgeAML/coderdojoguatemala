@@ -119,5 +119,31 @@ $(document).ready(function() {
     $(".cool-4-child-3").find("img").attr({"src": "./icons/affectionate--v2.png"});
     $(".cool-4-child-3").find("h2").html(TITULOCHILD4_3).attr({"class": "t-child-cool"});
     $(".cool-4-child-3").find("p").html(PARRAFOCHILD4_3).attr({"class": "p-child-cool"});
+    /*TWITTER API
+     @AmlLabs PARA TWITTER
+     <a class="twitter-timeline" href="https://twitter.com/AmlLabs?ref_src=twsrc%5Etfw">Tweets by AmlLabs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+     <a class="twitter-timeline" href="https://twitter.com/JorgeAml11?ref_src=twsrc%5Etfw">Tweets by JorgeAml11</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+     <a href="https://twitter.com/AmlLabs?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @AmlLabs</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    */
+     $("<div/>", {
+        "appendTo": ".container-cool-column",
+        "class": "container-cool-twitter"
+    });
+    $("<div/>", {
+        "appendTo": ".container-cool-twitter",
+        "class": "cool-twitter-child-1",
+        html: "<a><a>"
+    });
+    $(".cool-twitter-child-1").find("a").eq(0).html("Siguenos como AmlLabs").attr({
+        "class": "twitter-follow-button",
+        "href": "https://twitter.com/AmlLabs?ref_src=twsrc%5Etfw"
+    });
+    $(".cool-twitter-child-1").find("a").eq(1).html("Tweets by AmlLabs").attr({
+        "class": "twitter-timeline",
+        "href": "https://twitter.com/AmlLabs?ref_src=twsrc%5Etfw",
+        "data-tweet-limit": 1,
+        "data-height": 500,
+        "data-chrome": "nofooter noheader"
+    });
 
 })

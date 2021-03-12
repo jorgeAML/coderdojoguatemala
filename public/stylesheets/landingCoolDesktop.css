@@ -4,7 +4,7 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-        margin: 3% 3% 2% 3%;
+        margin: 0 3% 3% 3%;
     }
     .container-cool-1 {
         display: flex;
@@ -12,11 +12,12 @@
         justify-content: center;
         text-align: center;
     }
-    .container-cool-2, .container-cool-3, .container-cool-4 {
+    .container-cool-2, .container-cool-3, .container-cool-4, .container-cool-twitter {
         display: inline-flex;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: flex-start;
+        align-content: center;
     }
     .t-cool {
         font-family: var(--font-family1);
@@ -87,5 +88,14 @@
         position: inherit;
         object-fit: contain;
         height: 128px;
+    }
+    /*
+    TWITTER SECTION AND THEIR FLEXBOX 
+    */
+    .cool-twitter-child-1 {
+        order: 1;
+        flex: 1 1 auto;
+        align-self: center;
+        margin: 8% 0 3% 2%;
     }
 }

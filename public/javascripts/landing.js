@@ -52,7 +52,7 @@ $(document).ready(function() {
     //Mas informacion sobre el dojo
     const TITULOCHILD3_1 = "Conoce personas espectaculares";
     const PARRAFOCHILD3_1 = "La atmosfera en CoderDojo es muy abierta asi que facilmente puedes conocer personas con intereses similares.";
-    const TITULOCHILD3_2 = "Programando";
+    const TITULOCHILD3_2 = "Programa";
     const PARRAFOCHILD3_2 = "En Coder Dojo puedes aprender de todo sobre programación. Algo asi como sitios web, juegos, apps o incluso robots. Aprende con Arduino para crear tus propios dispositivos.";
     const TITULOCHILD3_3 = "Creatividad";
     const PARRAFOCHILD3_3 = "¿Estas en busca en expandir tu imaginación e ideas únicas? ¡Unete a Coder Dojo y expresa tu creatividad en proyectos geniales de programación!";
@@ -63,22 +63,25 @@ $(document).ready(function() {
     $("<div/>", {
         "appendTo": ".container-cool-3",
         "class": "cool-3-child-1",
-        html: "<h2/><p/>"
+        html: "<img><h2/><p/>"
     });
+    $(".cool-3-child-1").find("img").attr({"src": "./icons/iron-man.png"});
     $(".cool-3-child-1").find("h2").html(TITULOCHILD3_1).attr({"class": "t-child-cool"});
     $(".cool-3-child-1").find("p").html(PARRAFOCHILD3_1).attr({"class": "p-child-cool"});
     $("<div/>", {
         "appendTo": ".container-cool-3",
         "class": "cool-3-child-2",
-        html: "<h2/><p/>"
+        html: "<img><h2/><p/>"
     });
+    $(".cool-3-child-2").find("img").attr({"src": "./icons/controller.png"});
     $(".cool-3-child-2").find("h2").html(TITULOCHILD3_2).attr({"class": "t-child-cool"});
     $(".cool-3-child-2").find("p").html(PARRAFOCHILD3_2).attr({"class": "p-child-cool"});
     $("<div/>", {
         "appendTo": ".container-cool-3",
         "class": "cool-3-child-3",
-        html: "<h2/><p/>"
+        html: "<img><h2/><p/>"
     });
+    $(".cool-3-child-3").find("img").attr({"src": "./icons/edge-constraint.png"});
     $(".cool-3-child-3").find("h2").html(TITULOCHILD3_3).attr({"class": "t-child-cool"});
     $(".cool-3-child-3").find("p").html(PARRAFOCHILD3_3).attr({"class": "p-child-cool"});
     //Mas informacion sobre el dojo 
@@ -95,22 +98,25 @@ $(document).ready(function() {
     $("<div/>", {
         "appendTo": ".container-cool-4",
         "class": "cool-4-child-1",
-        html: "<h2/><p/>"
+        html: "<img><h2/><p/>"
     });
+    $(".cool-4-child-1").find("img").attr({"src": "./icons/hardworking--v1.png"});
     $(".cool-4-child-1").find("h2").html(TITULOCHILD4_1).attr({"class": "t-child-cool"});
     $(".cool-4-child-1").find("p").html(PARRAFOCHILD4_1).attr({"class": "p-child-cool"});
     $("<div/>", {
         "appendTo": ".container-cool-4",
         "class": "cool-4-child-2",
-        html: "<h2/><p/>"
+        html: "<img><h2/><p/>"
     });
+    $(".cool-4-child-2").find("img").attr({"src": "./icons/likes-folder.png"});
     $(".cool-4-child-2").find("h2").html(TITULOCHILD4_2).attr({"class": "t-child-cool"});
     $(".cool-4-child-2").find("p").html(PARRAFOCHILD4_2).attr({"class": "p-child-cool"});
     $("<div/>", {
         "appendTo": ".container-cool-4",
         "class": "cool-4-child-3",
-        html: "<h2/><p/>"
+        html: "<img><h2/><p/>"
     });
+    $(".cool-4-child-3").find("img").attr({"src": "./icons/affectionate--v2.png"});
     $(".cool-4-child-3").find("h2").html(TITULOCHILD4_3).attr({"class": "t-child-cool"});
     $(".cool-4-child-3").find("p").html(PARRAFOCHILD4_3).attr({"class": "p-child-cool"});
 

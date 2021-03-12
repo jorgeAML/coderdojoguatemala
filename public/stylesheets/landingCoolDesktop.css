@@ -81,4 +81,11 @@
         color: var(--color-light);
         padding: 3% 3% 3% 3%;
     }
+    .cool-3-child-1 > img, .cool-3-child-2 > img, .cool-3-child-3 > img,
+    .cool-4-child-1 > img, .cool-4-child-2 > img, .cool-4-child-3 > img {
+        width: 100%;
+        position: inherit;
+        object-fit: contain;
+        height: 128px;
+    }
 }

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //VARIABLES FOR THE NAV.JADE
-    var navegacion = ['Blog', 'Tutoriales', 'Contacto', 'Privacidad', 'Terminos & condiciones'];
+    var navegacion = ['Blog', 'Participa', 'Contacto', 'Privacidad', 'Terminos & condiciones'];
     const urlDefault = "Update this text when you set the new URL";
     var f1 = document.getElementsByClassName("footer-a1");
 

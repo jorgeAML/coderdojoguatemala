@@ -11,11 +11,11 @@
     flex-flow: column wrap;
 }
 .h1_sp {
-    color: var(--color-work);
+    color: var(--color-light);
     font-family: var(--font-work);
 }
 .p_sp {
-    color: var(--color-work);
+    color: var(--color-light);
     font-family: var(--font-work);
 }
 .h2_tp {

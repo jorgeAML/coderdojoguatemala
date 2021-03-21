@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    //TIME
+    const TODAY = new Date('March 20, 2021');
+    var year = TODAY.getFullYear();
+    
     //VARIABLES FOR THE NAV.JADE
     var navegacion = ['Blog', 'Participa', 'Contacto', 'Privacidad', 'Terminos & condiciones'];
     const urlDefault = "Update this text when you set the new URL";
@@ -97,9 +101,10 @@ $(document).ready(function () {
     });
 
     //THE LAST PART OF THE FOOTER
+    
     var hr = document.getElementsByClassName("footer-container");    
     var createHr = $("<hr></hr>");
-    var pieDePagina = $("<p>2021 &#169 Coder Dojo Guatemala por AML Productions</p>")
+    var pieDePagina = $(`<p>${year} &#169 Coder Dojo Guatemala por AML Productions</p>`);
 
     createHr.appendTo(hr);
     pieDePagina.appendTo(hr);

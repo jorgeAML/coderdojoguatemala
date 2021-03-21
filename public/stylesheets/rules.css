@@ -9,6 +9,8 @@
     --color-light: #f9f8f9;
     --font-size-xx-large: xx-large;
     --font-size-large: large;
+    --font-size-small: small;
+    --font-size-medium: medium;
     /*CONTAINERS*/
     --borders: 3px solid #40214a;
     --bottom: 3px dashed #f9f8f9;
@@ -22,5 +24,11 @@
     --duration: 1s;
     --shadows: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     --transform: scale(1.05,1.05);
+    /*IMAGES PROPERTIES*/
+    --object-fit-cover: cover;
+    --fit-height-200px: 200px;
+    /*MOBILES 360px x 640px*/
+    --font-size-titles-mobilesmall: 2.5rem;
+    --text-align-center: center;
     
 }

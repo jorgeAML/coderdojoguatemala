@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     //MANIPULATING ELEMENTS
     $(f1).find("a").eq(0).html(navegacion[0]).addClass("af1").attr({
-        href: '#',
+        href: '/blog',
         rel: urlDefault
     });
     $(f1).find("a").eq(1).html(navegacion[1]).addClass("af2").attr({

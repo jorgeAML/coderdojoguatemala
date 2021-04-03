@@ -1,0 +1,56 @@
+html(lang='eng')
+    head 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Coder Dojo Guatemala un lugar donde aprender a programar es divertido y para todo rango de edades">
+        <meta name="keywords" content="blog coder dojo guatemala">
+        <meta name="author" content="Jorge AML">
+        <meta name="application-name" content="Coder Dojo Guatemala-Mixco">
+        title= 'Blog de Coder Dojo Guatemala'
+        link(rel="shortcut icon", href="../images/favicon.ico", type="image/x-icon")
+        link(rel='stylesheet', href='./css/rules.css')
+        link(rel='stylesheet', href='./css/header.css')
+        link(rel='stylesheet', href='./css/nav-clickable.css')
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@531&display=swap" rel="stylesheet">
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    body 
+        header(class="blog-header")
+            h1 {{title}}
+            h2 {{subtitle}}
+        svg(xmlns="http://www.w3.org/2000/svg" hidden)
+            symbol(id="arrow" viewbox="0 0 16 16")
+                polyline(points="4 6, 8 10, 12 6" stroke="#000" stroke-width="2" fill="transparent" stroke-linecap="round")
+        nav(id='site-navigation' class='site-navigation' aria-label='Clickable Menu Demonstration')
+            ul(class='main-menu clicky-menu no-js') 
+                li 
+                    a(href='/') blog
+                li 
+                    a(href='#') Archivos
+                        svg(aria-hidden='true' width='16' height='16')
+                            use(xlink:href='#arrow')  
+                    ul 
+                        li 
+                            a(href='#') Febrero 2021
+                        li 
+                            a(href='#') Enero 2021
+                        li  
+                            a(href='#') Diciembre 2020
+                li 
+                    a(href='#') Informacion 
+                        svg(aria-hidden='true' width='16' height='16')
+                            use(xlink:href='#arrow')
+                    ul  
+                        li
+                            a(href='#') Sobre el Dojo 
+                        li 
+                            a(href='#') Sobre el campeon
+                        li 
+                            a(href='#') sobre como participar
+    script(src='./javascripts/main.js')
+    script(src='./javascripts/clicky-menus.js')

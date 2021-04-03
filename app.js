@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 
+
 var app = express();
 
 // view engine setup
@@ -21,7 +22,7 @@ const MORGANFORMATS = [
         {short: "short"},
           {tiny: "tiny"}
 ]
-app.use(logger(MORGANFORMATS[2].dev));
+app.use(logger(MORGANFORMATS[4].tiny));
 //MORGAN
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -30,6 +31,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+app.get('/blog', (req, res) => {
+  res.render('blog');
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

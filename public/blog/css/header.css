@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1200px) {
+    .blog-header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 5% 0 0 20%;
+    }
+    .blog-header > h1, .blog-header > h2 {
+        color: var(--color-light);
+        font-family: var(--font-family4);
+        line-height: 1%;
+    }
+    .blog-header > h1 {
+        font-size: var(--font-size-50);
+    }
+}

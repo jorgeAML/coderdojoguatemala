@@ -29,9 +29,9 @@ html(lang='eng')
         nav(id='site-navigation' class='site-navigation' aria-label='Clickable Menu Demonstration')
             ul(class='main-menu clicky-menu no-js') 
                 li 
-                    a(href='/') blog
+                    a(href='/') {{sectionA}}
                 li 
-                    a(href='#') Archivos
+                    a(href='#') {{sectionB}}
                         svg(aria-hidden='true' width='16' height='16')
                             use(xlink:href='#arrow')  
                     ul 
@@ -42,7 +42,7 @@ html(lang='eng')
                         li  
                             a(href='#') Diciembre 2020
                 li 
-                    a(href='#') Informacion 
+                    a(href='#') {{sectionC}} 
                         svg(aria-hidden='true' width='16' height='16')
                             use(xlink:href='#arrow')
                     ul  

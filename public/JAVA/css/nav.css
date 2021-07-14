@@ -1,15 +1,16 @@
-/*CSS STYLE FOR JAVA SECTION*/
-#nav-java {
-    color: var(--color-navbar-text);
-    border-bottom: 3px ridge var(--color-borders-nav);
-    box-shadow: 0 1px 5px 0 var(--color-shadow);
-    font-family: var(--font-family1);
-    font-size: x-large;
-    overflow: hidden;
-    background-color: var(--color-background-nav);
-    z-index: 1;
-}
+/*CSS STYLE FOR JAVA SECTION dd*/
+
 @media only screen and (min-device-width: 1200px) {
+    #nav-java {
+        color: var(--color-navbar-text);
+        border-bottom: 3px solid #40214a;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        font-family: var(--font-family1);
+        font-size: x-large;
+        overflow: hidden;
+        background-image: linear-gradient(-150deg,#231d25,#231d25,#40214a);
+        z-index: 1;
+    }
     .navbar {
         display: flex;
         justify-content: center;
@@ -45,10 +46,10 @@
     .navbar a {
         transition: color 5s cubic-bezier(0.11, 0.7, 0, 1);
         overflow: hidden;
-        color: var(--color-navbar-text)
+        color: var(--background-color-images)
     }
     .navbar a:hover {
-        border-bottom: 3px solid var(--color-navbar-hover);
+        color: #FF9F1C;
     }
     #rec1 {
         position: absolute;
@@ -59,5 +60,23 @@
         position: fixed;
         top: 0;
         width: 100%;
+    }
+}
+@media (min-width:320px) and (max-width:680px) {
+    a {
+        color: var(--background-color-images);
+    }
+    #nav-java {
+        color: var(--background-color-images);
+        border-bottom: 3px solid #40214a;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1) , 0px 4px 6px -2px rgba(0,0,0,0.05);
+        font-family: var(--font-family1);
+        font-size: x-large;
+        overflow: hidden;
+        background-image: linear-gradient(-150deg,#231d25,#231d25,#40214a);
+        position: static;
+    }
+    .navbar {    
+        padding: 4%;
     }
 }

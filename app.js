@@ -22,7 +22,7 @@ const MORGANFORMATS = [
         {short: "short"},
           {tiny: "tiny"}
 ]
-app.use(logger(MORGANFORMATS[4].tiny));
+app.use(logger(MORGANFORMATS[2].dev));
 //MORGAN
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

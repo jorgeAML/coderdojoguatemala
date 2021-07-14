@@ -1,6 +1,9 @@
 :root {
-    --color-background-nav: #ffffff;
-    --color-background-body: #ffebee;
+    --color-button-fill: #a972cb;
+    --hover-fill: linear-gradient(-150deg, #004749, #00746b, #00a950);
+    --transition-all: 0.25s;
+    --color-background-nav: #231d25;
+    --color-background-body: #231d25;
     --color-navbar-text: #ff5131;
     --color-navbar-text-2: #373737;
     --color-navbar-hover: #1976d2;
@@ -26,7 +29,7 @@ body {
     width:100%;
     height: 100%;
     overflow: auto;
-    background-color: var(--color-background-body);
+    background-color: #231d25;
     box-sizing: border-box;
 }
 a {

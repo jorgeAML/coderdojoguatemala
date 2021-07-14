@@ -14,3 +14,33 @@
         font-size: var(--font-size-50);
     }
 }
+/*PHONES*/
+@media (max-width: 640px) {
+    .blog-header {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 5% 5% 0 5%;
+        justify-content: center;
+    }
+    .blog-header > h1, .blog-header > h2 {
+        color: var(--color-light);
+        font-family: var(--font-family4);
+        line-height: 1%;
+        text-align: center;
+    }
+}
+/*IPAD*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .blog-header {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 5% 5% 0 5%;
+        justify-content: center;
+    }
+    .blog-header > h1, .blog-header > h2 {
+        color: var(--color-light);
+        font-family: var(--font-family4);
+        line-height: 1%;
+        text-align: center;
+    }
+}

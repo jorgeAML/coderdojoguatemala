@@ -1,9 +1,9 @@
 body {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     width: 100%;
     overflow: auto;
-    margin: 0;
-    background-color: #231d25;
+    /*margin: 0;*/
+    /*background-color: #231d25;*/
 }
 :root {
     --font-family1: 'Squada One', cursive;

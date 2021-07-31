@@ -3,7 +3,8 @@
 @media only screen and (min-device-width: 1200px) {
     #nav-java {
         color: var(--color-navbar-text);
-        border-bottom: 3px solid #40214a;
+        border-bottom: 4px solid;
+        border-image: var(--gradient-new-1);
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         font-family: var(--font-family1);
         font-size: x-large;
@@ -49,7 +50,7 @@
         color: var(--background-color-images)
     }
     .navbar a:hover {
-        color: #FF9F1C;
+        color: #5E60CE;
     }
     #rec1 {
         position: absolute;
@@ -68,7 +69,8 @@
     }
     #nav-java {
         color: var(--background-color-images);
-        border-bottom: 3px solid #40214a;
+        border-bottom: 4px solid;
+        border-image: var(--gradient-new-1);
         box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1) , 0px 4px 6px -2px rgba(0,0,0,0.05);
         font-family: var(--font-family1);
         font-size: x-large;

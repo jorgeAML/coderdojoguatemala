@@ -32,6 +32,7 @@ body {
     height: 100%;
     overflow: auto;
     background-color: #231d25;
+    background-image: url("./images/random-grey-variations.png");
     box-sizing: border-box;
 }
 a {

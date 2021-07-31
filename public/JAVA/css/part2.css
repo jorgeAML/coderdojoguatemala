@@ -17,7 +17,8 @@
         order: 1;
         flex: 1 1 33.33%;
         margin: 0;
-        border-radius: 30px
+        border-radius: 30px;
+        /*opacity: 0.8;*/
     }
     .card:nth-child(2) {
         order: 2;
@@ -42,8 +43,10 @@
         border-radius: 50%;
         position: relative;
         margin: 5% 0 0 28%;
+        border: 3px solid #231d25;
+        box-shadow: 1px 1px 2px 2px #111111;
     }
-    .card > h1 {
+    .card > h1, .card > h5 {
         text-align: center;
         color: var(--background-color-images);
         font-family: var(--font-family2);
@@ -69,7 +72,7 @@
         background: linear-gradient(60deg, #F72585, #B5179E, #480CA8, #3A0CA3, #3F37C9, #4361EE, #4895EF, #4CC9F0);
         border-radius: calc(17 * var(--borderWidth));
         z-index: -1;
-        animation: animatedgradient 9s ease alternate infinite;
+        animation: animatedgradient 5s ease alternate infinite;
         background-size: 300% 300%;
         box-shadow: 1px 1px 2px 2px #111111;
       }

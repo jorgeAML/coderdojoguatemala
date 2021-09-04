@@ -56,7 +56,7 @@ new Vue({
 new Vue({
     el: ".C",
     data: {
-        cap3A: cardCapitulos[2].capitulo3,
+        cap3A: cardCapitulos[3].capitulo3,
         cap3B: cardTitulos[2].titulo3,
         cap3C: cardInfo[2].info3,
         cap3D: cardCapitulos[0].botones

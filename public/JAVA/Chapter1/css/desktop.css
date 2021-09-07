@@ -28,5 +28,6 @@
     }
     .c-20 > h2, .c-20 > ol {
         color: var(--color-text-white);
+        font-family: var(--font-family1);
     }
 }

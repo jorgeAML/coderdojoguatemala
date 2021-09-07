@@ -1,9 +1,12 @@
 @media only screen and (min-device-width: 1200px) {
     body {
         margin: 0;
+        background-color: var(--color-background-body-dark);
+        background-image: url("../assets/random-grey-variations.png");
+        box-sizing: border-box;
     }
     .container-full:nth-child(1) {
-        background-color: var(--color-background-body-dark);
+        background-color: transparent;
         margin: 0 0 0 0;
         padding: 1%;
     }

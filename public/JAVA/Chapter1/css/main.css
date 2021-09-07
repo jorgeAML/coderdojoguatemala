@@ -1,13 +1,18 @@
 :root {
-    --color-background-body-dark: #231d25;
-    --color-background-body-white: #fff8e1;
+    --color-background-body-dark: #3B444B;
+    --color-background-body-white: #FFFFFF;
     --color-text-white: #ffffff;
     --font-family1: 'Squada One', cursive;
     --font-family2: 'Work Sans', sans-serif;
     --font-family3: 'Fredoka One', cursive;
     --font-family4: 'sketch3d', sans-serif;
+    --font-family5: 'cocogoose', sans-serif;
 }
 @font-face {
     font-family: 'sketch3d';
     src: url('./Sketch_3D.otf') format('opentype'), url('./Sketch_3D.woff') format('woff');
+}
+@font-face {
+    font-family: 'cocogoose';
+    src: url('../assets/Cocogoose-Classic-Medium-trial.ttf') format('trueType');
 }

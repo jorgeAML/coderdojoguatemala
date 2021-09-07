@@ -2,19 +2,21 @@
     body {
         margin: 0;
         background-color: var(--color-background-body-dark);
-        background-image: url("../assets/random-grey-variations.png");
+        background-image: url("../assets/shattered.png");
         box-sizing: border-box;
     }
     .container-full:nth-child(1) {
         background-color: transparent;
         margin: 0 0 0 0;
-        padding: 1%;
+        padding: 2%;
     }
     .container-card {
         background-color: var(--color-background-body-white);
         margin: 1% 1% 1% 1%;
-        border-radius: 15px;
-        padding: 1% 1% 1% 1%;
+        border-radius: 20px;
+        border: 2px solid rgb(86,86,86);
+        box-shadow: 10px 10px 2px 1px #121212;
+        /* padding: 1% 1% 1% 1%; */
     }
     .row {
         display: flex;
@@ -42,5 +44,13 @@
     .i-80 {
         font-family: var(--font-family4);
         font-size: 6em;
+        text-align: center;
+    }
+    .i-81 {
+        font-family: var(--font-family5);
+        font-size: 1.4em;
+        padding: 0 5% 0 5%;
+        text-align: justify;
+        color: #565656;
     }
 }

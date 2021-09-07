@@ -1,0 +1,32 @@
+@media only screen and (min-device-width: 1200px) {
+    body {
+        margin: 0;
+    }
+    .container-full:nth-child(1) {
+        background-color: var(--color-background-body-dark);
+        margin: 0 0 0 0;
+        padding: 1%;
+    }
+    .container-card {
+        background-color: var(--color-background-body-white);
+        margin: 1% 1% 1% 1%;
+        border-radius: 15px;
+        padding: 2%;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .c-80 {
+        order: 2;
+        flex: 4 1 80%;
+    }
+    .c-20 {
+        order: 1;
+        flex: 1 1 20%;
+    }
+    .c-20 > h2, .c-20 > ol {
+        color: var(--color-text-white);
+    }
+}

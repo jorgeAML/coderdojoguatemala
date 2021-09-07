@@ -5,4 +5,9 @@
     --font-family1: 'Squada One', cursive;
     --font-family2: 'Work Sans', sans-serif;
     --font-family3: 'Fredoka One', cursive;
+    --font-family4: 'sketch3d', sans-serif;
+}
+@font-face {
+    font-family: 'sketch3d';
+    src: url('./Sketch_3D.otf') format('opentype'), url('./Sketch_3D.woff') format('woff');
 }

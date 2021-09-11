@@ -15,7 +15,7 @@
         margin: 1% 1% 1% 1%;
         border-radius: 20px;
         border: 2px solid rgb(86,86,86);
-        box-shadow: 10px 10px 2px 1px #121212;
+        box-shadow: 5px 5px 15px 1px #121212;
         /* padding: 1% 1% 1% 1%; */
     }
     .row {
@@ -46,7 +46,7 @@
         font-size: 6em;
         text-align: center;
     }
-    .i-81 {
+    .i-81, .i-82 {
         font-family: var(--font-family5);
         font-size: 1.4em;
         padding: 0 5% 0 5%;

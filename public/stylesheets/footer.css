@@ -1,10 +1,8 @@
 .footer-container {
-    /*background-image: url("./images/dark-honeycomb.png");*/
-    border-top: 3px solid #576675;
+    border-top: 3px solid var(--font-black);
 }
-
 .p-adjust {
-    color: var(--color-font-one);
+    color: var(--font-black);
     font-family: var(--font-one);
 }
 .footer-row {
@@ -12,46 +10,34 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-
-
 .footer-post {
     background-color: transparent;
-
 }
 .footer-post > h3 {
-    color: var(--color-font-two);
+    color: var(--font-black);
     font-family: var(--font-two);
 }
 .footer-post > ul {
-    color: var(--color-font-one);
+    color: var(--font-black);
     font-family: var(--font-one);
 }
 .footer-a1 > a:hover {
-    color: 	rgb(100,240,251);
+    color: 	var(--font-black);
     transition: 0.6s ease-in-out;
 }
 .footer-a2 > a:hover {
-    color: rgb(26,233,76);
+    color: var(--font-black);
     transition: 0.6s;
 }
 .footer-a3 > a:hover {
-    color: rgb(205,245,11);
+    color: var(--font-black);
     transition: 0.6s;
 }
 .piePagina-footer {
-    color: var(--color-font-one);
+    color: var(--font-black);
     font-family: var(--font-two);
     text-align: center;
 }
-/*VARIABLES*/
-.p-adjust, .footer-post > h3, .footer-post > ul, .piePagina-footer {
-    --font-one: 'Work Sans', sans-serif;
-    --font-two: 'Squada One', cursive;
-    --color-font-one: #f9f8f9;
-    --color-font-two: 	#576675;
-}
-
-
 @media only screen and (min-width: 1030px) {
     .ordenf1 {
         order: 1;

@@ -1,25 +1,29 @@
 /*RULES THEM ALL*/
 :root {
+    --font-one: 'Work Sans', sans-serif;
+    --font-two: 'Squada One', cursive;
     --font-family1: 'Squada One', cursive;
     --font-family2: 'Work Sans', sans-serif;
     --font-family3: 'Fredoka One', cursive;
     --font-family4: "Libre Franklin", sans-serif;
     --font-weight-900: 900;
     --font-weight-800: 800;
-    --color-light: #f9f8f9;
+    --color-light: #082949;
     --font-size-xx-large: xx-large;
     --font-size-large: large;
     --font-size-small: small;
     --font-size-medium: medium;
+    --font-white: #f9f8f9;
+    --font-black: #1f1f30;
     /*CONTAINERS*/
-    --borders: 3px solid #40214a;
+    --borders: 3px solid #082949;
     --bottom: 3px dashed #f9f8f9;
     --bottom2: 2px dashed #afafaf;
     --border-top-left-radius: 5px;
     --border-top-right-radius: 5px;
     --border-radius: 5px;
     --box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    --background-image: linear-gradient(-150deg,#231d25,#231d25,#40214a);
+    --background-image: linear-gradient(-150deg,#fff7f4,#fff7f4,#fff7f4);
     /*TRANSITIONS*/
     --duration: 1s;
     --shadows: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -31,4 +35,12 @@
     --font-size-titles-mobilesmall: 2.5rem;
     --text-align-center: center;
     
+}
+body {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    transition: 1s ease;
 }
